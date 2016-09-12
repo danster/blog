@@ -14,7 +14,7 @@
 * [Linux Basic Tools](Linux/Linux_Base_Tools.md)
 * [Linux Senior Tools](Linux/Linux_Senior_Tools.md)
 * [Linux Service Configuration](Linux/Service_Config.md)
-* [Linux 目录与文件](Linux/Linux_FHS.ms)
+* [Linux 目录与文件](Linux/Linux_FHS.md)
 * [VBird: Bash & Shell](Linux/VBird_Shell.md)
 * [VBird: 文件系统,权限,账号,进程管理](Linux/VBird_First.md)
 * [VBird: 守护进程,登录档,启动流程,模块管理](Linux/VBird_Second.md)
