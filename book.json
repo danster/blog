@@ -1,6 +1,13 @@
 {
-    "plugins": ["atoc"],
+    "title": "Danster's Blog",
+    "description": "个人技术博客",
+    
+    "plugins": ["atoc", "github", "editlink", "ga", ],
     "pluginsConfig": {
+        "editlink": {
+            "base": "https://github.com/danster/blog/blob/master/content",
+            "label": "编辑本页"
+        },
         "atoc": {
             "addClass": true,
             "className": "atoc"
