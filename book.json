@@ -3,11 +3,18 @@
     "description": "个人技术博客",
     
     "plugins": ["atoc", "splitter", "github", "editlink", "ga", "anchor-navigation", ],
+    
     "pluginsConfig": {
+    
+        "github": {
+          "url": "https://github.com/danster/blog"
+        },
+        
         "editlink": {
             "base": "https://github.com/danster/blog/blob/master/content",
             "label": "编辑本页"
         },
+        
         "atoc": {
             "addClass": true,
             "className": "atoc"
