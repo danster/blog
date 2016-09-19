@@ -7,9 +7,6 @@
         "editlink"
     ],
     "pluginsConfig": {
-       "fontSettings": {
-            "size": 1 to 3,
-        }, 
         "editlink": {
           "base": "https://github.com/danster/blog/edit/master",
           "label": "Edit",
