@@ -223,7 +223,7 @@ find / -name filename -type d -perm [+-]7000
 目录所需权限：使用者在该目录至少要有 x 的权限；  
 文件所需权限：使用者在该文件至少需要有 x 的权限
 
-#### **[文件特殊权限： SUID(s), SGID(s), SBIT(t)](http://vbird.dic.ksu.edu.tw/linux_basic/0220filemanager_4.php#suid_sgid_sbit)**
+#### [文件特殊权限： SUID(s), SGID(s), SBIT(t)](http://vbird.dic.ksu.edu.tw/linux_basic/0220filemanager_4.php#suid_sgid_sbit)
 
 **SUID**: 当`s`这个标志出现在文件拥有者的`x`权限上时,称为 `Set UID`,即`SUID`的特殊权限
 
@@ -399,7 +399,7 @@ at 的运行与终端机环境无关，而所有 stdout/stderr 都会传送到�
 
 基本上，`cron` 这个服务的最低侦测限制是『分钟』，所以『 `cron` 会每分钟去读取一次 `/etc/crontab` 与 `/var/spool/cron/username` 里面的数据内容 』，因此，只要你编辑完 `/etc/crontab` 这个文件，并且将他储存之后，那么 cron 的配置就自动的会来运行了
 
-#### **anacron** 
+#### anacron 
 anacron 处理非 24 小时一直启动的 Linux 系统的 crontab 的运行  
 
 以天为单位或者是在启动后立刻进行 anacron 的动作，anacron 会去侦测停机期间应该进行但是并没有进行的 crontab 任务，并将该任务运行一遍后，anacron 就会自动停止了。
@@ -733,7 +733,7 @@ fuser: [-cfu] file ...
 1 4286
 ```
 
-##### [SELinux](http://vbird.dic.ksu.edu.tw/linux_basic/0440processcontrol.php#selinux) : Security Enhanced Linux
+#### [SELinux](http://vbird.dic.ksu.edu.tw/linux_basic/0440processcontrol.php#selinux) : Security Enhanced Linux
 
 > 其实 SELinux 是在进行程序、文件等细部权限配置依据的一个核心模块！ 由於启动网络服务的也是程序，因此刚好也能够控制网络服务能否存取系统资源的一道关卡！
 
