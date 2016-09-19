@@ -1,12 +1,8 @@
 ## 鸟哥的Linux私房菜基础篇_上 -- 文件系统、权限、账号、进程管理
 
-- [第六章、Linux 的文件权限与目录配置](#6)
-- [第七章、Linux 文件与目录管理](#7)
-- [第十四章、Linux 账号管理与 ACL 权限配置](#14)
-- [第十六章、例行性工作排程](#16)
-- [第十七章、程序管理](#17)
+<!-- toc -->
 
-####<a name=6>第六章、Linux 的文件权限与目录配置</a>
+#### 第六章、Linux 的文件权限与目录配置
 
 - [目录与文件之权限意义](http://vbird.dic.ksu.edu.tw/linux_basic/0210filepermission_2.php#filepermission_dir)
 
@@ -26,9 +22,9 @@
 
 ---
 
-####<a name=7>第七章、Linux 文件与目录管理</a>
+#### 第七章、Linux 文件与目录管理
 
-####Linux File System
+#### Linux File System
 
 我们可以称呼一个可被挂载的数据为一个文件系统而不是一个分割槽(partition)。  
 
@@ -178,7 +174,7 @@ Linux 都是透过 VFS核心功能去读取 filesystem
 - 解析Linux中的VFS文件系统机制: http://www.ibm.com/developerworks/cn/linux/l-vfs/index.html
 - 硬盘的读写原理: (http://blog.csdn.net/hguisu/article/details/7408047)
 
-#### Linux File
+## Linux File
 
 - 非纯文字档查看命令： od
 - cp 会复制执行者的属性与权限
@@ -231,7 +227,7 @@ find / -name filename -type d -perm [+-]7000
 目录所需权限：使用者在该目录至少要有 x 的权限；  
 文件所需权限：使用者在该文件至少需要有 x 的权限
 
-**[文件特殊权限： SUID(s), SGID(s), SBIT(t)](http://vbird.dic.ksu.edu.tw/linux_basic/0220filemanager_4.php#suid_sgid_sbit)**
+#### **[文件特殊权限： SUID(s), SGID(s), SBIT(t)](http://vbird.dic.ksu.edu.tw/linux_basic/0220filemanager_4.php#suid_sgid_sbit)**
 
 **SUID**: 当`s`这个标志出现在文件拥有者的`x`权限上时,称为 `Set UID`,即`SUID`的特殊权限
 
@@ -262,11 +258,10 @@ SGID用在目录上时，使用者若对於此目录具有`r`与`x`的权限时�
 
 **SUID/SGID/SBIT 权限配置** 
 
-SUID=4, SGID=2, SBIT=1 : chmod 4*** file, chmod u=rwxs,go=x file  
+SUID=4, SGID=2, SBIT=1 : `chmod 4*** file, chmod u=rwxs,go=x file `   
 `S`, `T` 代表没有`x`权限， `s`, `t`代表有`x`权限 
 
----
-####<a name=14>第十四章、Linux 账号管理与 ACL 权限配置</a>
+## 第十四章、Linux 账号管理与 ACL 权限配置
 
 **登录**
 
@@ -341,7 +336,7 @@ sudo 默认仅有 root 能使用啊！为什么呢？因为 sudo 的运行是这
 mail 请参考：http://vbird.dic.ksu.edu.tw/linux_basic/0410accountmanager_6.php#mail
 
 ---
-####<a name=16>第十六章、例行性工作排程</a>
+## 第十六章、例行性工作排程
 
 Linux 工作排程的种类： at, crontab
 
@@ -391,7 +386,7 @@ at 的工作情况其实是这样的：
 使用 at 时会进入一个 at shell 的环境来让使用者下达工作命令，且会跑到当时下达 at 命令的那个工作目录此时，建议你最好使用绝对路径来下达你的命令，比较不会有问题。  
 at 的运行与终端机环境无关，而所有 stdout/stderr 都会传送到运行者的 mailbox 。  如果在 at shell 内的命令并没有任何的信息输出，那么 at 默认不会发 email 给运行者的，除非使用『 at -m 时间格式 』  
 
-####**crontab** 
+#### crontab 
  /etc/cron.allow  /etc/cron.deny , 工作会被纪录到/var/spool/cron/username 里
 
 ```
@@ -446,8 +441,8 @@ anacron 的语法如下：
 job ：由 /etc/anacrontab 定义的各项工作名称。
 ```
 
----
-####<a name=17>第十七章、程序管理</a>
+
+## 第十七章、程序管理
 
 #### 程序
 
