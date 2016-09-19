@@ -1,5 +1,5 @@
 # 鸟哥的Linux私房菜基础篇 -- Bash & Shell
-### Index
+
 - [第十一章、认识与学习 BASH ](#11)
 - [第十三章、学习 Shell Scripts ](#13)
 
