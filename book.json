@@ -2,10 +2,10 @@
     "plugins": [
         "atoc",
         "splitter",
-        "editlink"
+        "-editlink"
     ],
     "pluginsConfig": {
-        "editlink": {
+        "-editlink": {
             "base": "https://github.com/danster/blog/edit/master/content",
             "label": "Edit This Page",
             "multilingual": "false"
