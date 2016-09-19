@@ -2,7 +2,7 @@
     "title": "Danster's Blog",
     "description": "个人技术博客",
     
-    "plugins": ["atoc", "splitter", "github", "editlink", "ga", ],
+    "plugins": ["atoc", "splitter", "github", "editlink", "ga", "anchor-navigation", ],
     "pluginsConfig": {
         "editlink": {
             "base": "https://github.com/danster/blog/blob/master/content",
