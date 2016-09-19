@@ -3,7 +3,8 @@
         "atoc",
         "splitter",
         "anchors",
-        "github"
+        "github",
+        "editlink"
     ],
     "pluginsConfig": {
         "github": {
