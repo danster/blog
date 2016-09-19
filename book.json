@@ -2,7 +2,8 @@
     "plugins": [
         "atoc",
         "splitter",
-        "edit-link"
+        "edit-link",
+        "anchors"
     ],
     "pluginsConfig": {
         "edit-link": {
