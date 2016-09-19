@@ -23,6 +23,7 @@ int func(){ return 0;} // 函数定义
 ### C C++ Compare
 - C/C++ 都是静态强类型语言；C 面向过程，C++面向对象
 - C/C++ 关键字比较
+
 ```
 ANSI C 32 words
 auto   break  case	  char   const	   continue	default  do
@@ -50,24 +51,26 @@ delete     goto         reinterpret_cast  try
 - 基本类型：bool, char, int, float, double, void, wchar_t  
 - 一些基本类型可以使用一个或多个类型修饰符进行修饰：unsigned, signed, short, long
 - typedef type newname;
-- enum enum-name { list of names } var-list; 
+- enum enum-name { list of names } var-list;
+
 ```
 enum int { a, b=-1, c, d=20 } x; x=c; // a=0,c=0
 enum color { red, green, blue } c; c = blue;
-```
+```  
 - 左值（lvalue）：指向内存位置的表达式被称为左值（lvalue）表达式。左值可以出现在赋值号的左边或右边
 - 右值（rvalue）：指的是存储在内存中某些地址的数值。右值是不能对其进行赋值的表达式，也就是说，右值可以出现在赋值号的右边，但不能出现在赋值号的左边。
 
 **C++ 中的类型限定符** 类型限定符提供了变量的额外信息。 
 
 - const	   const 类型的对象在程序执行期间不能被修改改变。
-- volatile	volatile 告诉编译器，变量的值可能以程序未明确指定的方式被改变。
+- volatile	volatile 告诉编译器，变量的值可能以程序未明确指定的方式被改变。  
 
 **C++ 存储类**  存储类定义 C++ 程序中变量/函数的范围（可见性）和生命周期  
 
 - auto auto 存储类是所有局部变量默认的存储类, auto 只能用在函数内 & 只能修饰局部变量
 - register 用于定义存储在寄存器中而不是 RAM 中的局部变量
 - static  
+
 ```
 static 存储类指示编译器在程序的生命周期内保持局部变量的存在，而不需要在每次它进入和离开作用域时进行创建和销毁。
 因此，使用 static 修饰局部变量可以在函数调用之间保持局部变量的值。
@@ -75,6 +78,7 @@ static 存储类指示编译器在程序的生命周期内保持局部变量的�
 当 static 用在类数据成员上时，会导致仅有一个该成员的副本被类的所有对象共享。
 ```
 - extern  
+
 ```
 extern 存储类用于提供一个全局变量的引用，全局变量对所有的程序文件都是可见的。
 当您使用 'extern' 时，对于无法初始化的变量，会把变量名指向一个之前定义过的存储位置。
@@ -83,7 +87,7 @@ extern 存储类用于提供一个全局变量的引用，全局变量对所有�
 
 可以这么理解，extern 是用来在另一个文件中声明一个全局变量或函数。
 ```
-- mutable 仅适用于类的对象,它允许对象的成员替代常量。也就是说，mutable 成员可以通过 const 成员函数修改。
+- mutable 仅适用于类的对象,它允许对象的成员替代常量。也就是说，mutable 成员可以通过 const 成员函数修改。  
 **struct**  
 ```
 struct [structure tag]
@@ -140,7 +144,7 @@ Books Book1, Book2;
 - [可重载运算符/不可重载运算符列表与实例](http://www.runoob.com/cplusplus/cpp-overloading.html)
 - C++ 数据抽象(add get update), C++ 数据封装(类), C++ 数据隐藏(private,protected), C++ 接口(继承与重写)
 
-**异常处理** http://www.runoob.com/cplusplus/cpp-exceptions-handling.html  
+**异常处理** http://www.runoob.com/cplusplus/cpp-exceptions-handling.html    
 ```
 try{// 保护代码
    ...
@@ -199,7 +203,7 @@ int main()
 **[C++ 信号处理](http://www.runoob.com/cplusplus/cpp-signal-handling.html)** 
 
 信号是由操作系统传给进程的中断，会提早终止一个程序。在 UNIX、LINUX、Mac OS X 或 Windows 系统上，可以通过按 Ctrl+C 产生中断。  
-有些信号不能被程序捕获，但是下表所列信号可以在程序中捕获，并可以基于信号采取适当的动作。这些信号是定义在 C++ 头文件 <csignal> 中  
+有些信号不能被程序捕获，但是下表所列信号可以在程序中捕获，并可以基于信号采取适当的动作。这些信号是定义在 C++ 头文件 <csignal> 中   
 ```
 信号	   描述
 SIGABRT	程序的异常终止，如调用 abort。
