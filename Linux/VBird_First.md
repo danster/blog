@@ -1,10 +1,10 @@
-## 鸟哥的Linux私房菜基础篇_上 -- 文件系统、权限、账号、进程管理
+# 鸟哥的Linux私房菜基础篇_上 -- 文件系统、权限、账号、进程管理
 
 <!-- toc -->
 
-#### 第六章、Linux 的文件权限与目录配置
+## 第六章、Linux 的文件权限与目录配置
 
-- [目录与文件之权限意义](http://vbird.dic.ksu.edu.tw/linux_basic/0210filepermission_2.php#filepermission_dir)
+#### [目录与文件之权限意义](http://vbird.dic.ksu.edu.tw/linux_basic/0210filepermission_2.php#filepermission_dir)
 
 对于文件的rwx来说， 主要都是针对『文件的内容』而言，与文件档名的存在与否没有关系喔！因为文件记录的是实际的数据嘛！
 
@@ -20,9 +20,7 @@
 正规文件(-): 纯文本档(ASCII),二进制文件(binary),数据格式文件(data)  
 目录(d), 连结档(l), 区块(block)设备档(b), 字符(character)设备文件(c), 数据接口文件(sockets)(s), 数据输送文件(FIFO, pipe)(p)
 
----
-
-#### 第七章、Linux 文件与目录管理
+## 第七章、Linux 文件与目录管理
 
 #### Linux File System
 
@@ -179,7 +177,7 @@ Linux 都是透过 VFS核心功能去读取 filesystem
 - 非纯文字档查看命令： od
 - cp 会复制执行者的属性与权限
 
-[文件与目录的默认权限与隐藏权限](http://vbird.dic.ksu.edu.tw/linux_basic/0220filemanager_4.php)  
+#### [文件与目录的默认权限与隐藏权限](http://vbird.dic.ksu.edu.tw/linux_basic/0220filemanager_4.php)  
 
 umask [-S] 指定 『目前使用者在创建文件或目录时候的权限默认值』,umask 的分数指的是『该默认值需要减掉的权限！』: 文件默认666 目录默认777   
 暂时性更改umask：umask=027 (umask 027). 
