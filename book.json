@@ -10,6 +10,9 @@
         "edit-link": {
             "base": "https://github.com/danster/blog/edit/master/",
             "label": "Edit This Page"
+        },
+        "github": {
+            "url": "https://github.com/danster/blog"
         }
     }
 }
