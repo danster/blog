@@ -5,14 +5,13 @@
 - [Python补充](#3)
 - [Python深入](#4)
 
-####Python Resource
+#### Python Resource
 - [Python多继承](https://segmentfault.com/a/1190000004018476)
 - [linux下python调试 pdb](http://blog.csdn.net/linda1000/article/details/11031771)
 - [Pycharm对linux上python代码进行远程调试](http://blog.csdn.net/eric_sunah/article/details/20538283)
 - [Python 2.7.x 与 Python 3.x 的主要差异](http://chenqx.github.io/2014/11/10/Key-differences-between-Python-2-7-x-and-Python-3-x/)
 
-####<a name=1>Python基础</a>
----
+#### <a name=1>Python基础</a>
 
 > 到今天，Python的框架已经确立，Python语言以对象为核心组织代码(Everything is object)，支持多种编程范式(multi-paradigm)，采用动态类型(dynamic typing)，自动进行内存回收(garbage collection)。Python支持解释运行(interpret)，并能调用C库进行拓展。Python有强大的标准库 (battery included)。由于标准库的体系已经稳定，所以Python的生态系统开始拓展到第三方包。这些包，如Django, web.py, wxpython, numpy, matplotlib,PIL，将Python升级成了物种丰富的热带雨林。
 
@@ -182,8 +181,7 @@ finally:
     ...
 ```
 
-####<a name=3>Python补充</a>
----
+#### <a name=3>Python补充</a>
 
 **Python内置函数清单**
 
@@ -238,8 +236,6 @@ any(["", 0, False, [], None])    # 是否有任意一个元素相当于True值
 sorted([1,5,3])                  # 返回正序的序列，也就是[1,3,5]
 reversed([1,5,3])                # 返回反序的序列，也就是[3,5,1]
 ```
-
-
 
 ```
 类，对象，属性
@@ -300,8 +296,7 @@ flags可以有+,-,' '或0
 0表示使用0填充.
 ```
 
-####<a name=4>Python深入</a>
----
+#### <a name=4>Python深入</a>
 **multi-paradigm**
 
 ```
