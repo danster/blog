@@ -6,6 +6,6 @@
    * [鸟哥私房菜 - Daemon、登录档、启动流程与模块管理](Linux/VBird_Second)
    * [鸟哥私房菜 - Bash & Shell](Linux/VBird_Shell.md)
 * [Programming Language](programming_language.md)
-* Openstack
+* [Openstack](openstack.md)
 * Misc
 
