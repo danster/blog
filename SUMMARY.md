@@ -12,6 +12,17 @@
    * [Linux 目录与文件](Linux/Linux_FHS.md)
    * [Tips of Ubuntn](Linux/Tips_of_Ubuntu.md)
 * Programming Language
+  * [C Knowledge List](Language/C_Knowledge_List.md)
+  * [C++ Knowledge List](Language/C++_Knowledge_List.md)
+  * [C++ STL](Language/C++_STL.md)
+  * [Python Base Knowledge](Language/Python_Base_Knowledge.md)
+  * [Python 2.7 Standard Library](https://docs.python.org/2/library/index.html)
+  * [Python Web Development](Language/Python_Web_Development.md)
+  * [Python Multiple Processing&Threading](Language/Python_Multi_Thread.md)
+  * [Java Knowledge List](Language/Java_Knowledge_List.md)
 * OpenStack
 * Misc
+
+
+
 
