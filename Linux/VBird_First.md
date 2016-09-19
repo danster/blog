@@ -165,9 +165,7 @@ Group 1: (Blocks 32768-65535)
 
 Linux 都是透过 VFS核心功能去读取 filesystem  
 
-![](/images/vfs.png)  
-
-![](https://raw.githubusercontent.com/danster/danster.github.io/master/images/2015/vfs.gif)
+![](centos7_vfs.gif)
 
 - 解析Linux中的VFS文件系统机制: http://www.ibm.com/developerworks/cn/linux/l-vfs/index.html
 - 硬盘的读写原理: (http://blog.csdn.net/hguisu/article/details/7408047)
