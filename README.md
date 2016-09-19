@@ -10,17 +10,6 @@
 * [Python Multiple Processing&Threading](Language/Python_Multi_Thread.md)
 * [Java Knowledge List](Language/Java_Knowledge_List.md)
 
-### Linux
-* [Linux Basic Tools](Linux/Linux_Base_Tools.md)
-* [Linux Senior Tools](Linux/Linux_Senior_Tools.md)
-* [Linux Service Configuration](Linux/Service_Config.md)
-* [Linux 目录与文件](Linux/Linux_FHS.md)
-* [VBird: Bash & Shell](Linux/VBird_Shell.md)
-* [VBird: 文件系统,权限,账号,进程管理](Linux/VBird_First.md)
-* [VBird: 守护进程,登录档,启动流程,模块管理](Linux/VBird_Second.md)
-* [VBird: 软件安装,Linux Backup,核心编译](Linux/VBird_Third.md)
-* [Tips of Ubuntn](Linux/Tips_of_Ubuntu.md)
-
 ### Technology
 * [Open Source List](Technology/OpenSourceList.md)
 * [SDN](Technology/SDN.md)
