@@ -89,6 +89,7 @@ extern 存储类用于提供一个全局变量的引用，全局变量对所有�
 ```
 - mutable 仅适用于类的对象,它允许对象的成员替代常量。也就是说，mutable 成员可以通过 const 成员函数修改。  
 **struct**  
+
 ```
 struct [structure tag]
 {
