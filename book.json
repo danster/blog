@@ -8,7 +8,7 @@
     ],
     "pluginsConfig": {
         "editlink": {
-          "base": "https://github.com/danster/blog/edit/master/content",
+          "base": "https://github.com/danster/blog/edit/master/SUMMARY.md",
           "label": "Edit This Page",
           "multilingual": false
         },
