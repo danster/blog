@@ -13,12 +13,14 @@ Partition: / 50G, /home 30G, /data 40G, /opt 80G
 ## Preprocess
 
 - Shutdown firewall 
+
 ```
 systemctl stop firewalld
 chkconfig --level 2345 firewalld off
 ```
 
 - set openstack repo  
+
 ```
 # Install Extra Packages for Enterprise Linux repository configuration 
 yum  -y install epel-release
