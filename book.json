@@ -1,6 +1,6 @@
 {
     "title": "Danster's Blog",
-    "description": "个人技术博客",
+    "description": "Jason Huang 的个人技术博客",
     
     "plugins": ["atoc", "splitter", "github", "editlink", "ga", "anchor-navigation", ],
     
