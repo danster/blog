@@ -7,6 +7,11 @@
         "editlink"
     ],
     "pluginsConfig": {
+        "editlink": {
+          "base": "https://github.com/danster/blog/edit/master/content",
+          "label": "Edit This Page",
+          "multilingual": false
+        },
         "github": {
             "url": "https://github.com/danster/blog"
         }
