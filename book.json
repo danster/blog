@@ -24,9 +24,6 @@
     "variables": {},
     
     "links": {
-        "sidebar": {
-            "wb": "https://weibo.com",
-        },
 
         "sharing": {
             "google": false,
