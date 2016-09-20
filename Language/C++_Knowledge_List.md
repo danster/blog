@@ -333,7 +333,7 @@ int main (){
 GET POST Cookies 文件上传 
 
 ### C++头文件一览 
-```
+```c
 C、传统 C++
 
 #include <assert.h>　　　　设定插入点
