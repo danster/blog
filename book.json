@@ -1,8 +1,6 @@
 {
     "title": "Danster's Blog",
     "description": "Technology Blog",
-    "extension": null,
-    "isbn": null,
 
     "plugins": [
         "atoc",
@@ -22,9 +20,7 @@
             "url": "https://github.com/danster/blog"
         }
     },
-    
-    "variables": {},
-    
+
     "links": {
         "sharing": {
             "google": false,
@@ -32,9 +28,6 @@
             "twitter": false,
             "weibo": null,
             "all": null
-        },
-        "sidebar": {
-            "Edit Book": "https://www.gitbook.com/book/danster/blog/edit"
         }
     }
 
