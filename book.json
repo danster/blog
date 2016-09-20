@@ -24,16 +24,15 @@
     "variables": {},
     
     "links": {
-        "sidebar": {
-            "wb": "https://weibo.com",
-        },
-
         "sharing": {
             "google": false,
             "facebook": false,
             "twitter": false,
             "weibo": null,
             "all": null
+        },
+        "sidebar": {
+            "Chengwei's Blog": "http://www.chengweiyang.cn"
         }
     }
 
