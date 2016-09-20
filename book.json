@@ -28,7 +28,7 @@
     "links": {
         // Custom links at top of sidebar
         "sidebar": {
-            "wb": "https://weibo.com"
+            "wb": "https://weibo.com",
         },
 
         // Sharing links
