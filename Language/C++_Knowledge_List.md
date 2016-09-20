@@ -6,7 +6,7 @@
 * C++ 多态的实现原理 http://blog.csdn.net/tujiaw/article/details/6753498
 
 #### Hello World
-```
+```c++
 #include <iostream>
 using namespace std;
 extern int a; // 变量声明
@@ -24,7 +24,7 @@ int func(){ return 0;} // 函数定义
 - C/C++ 都是静态强类型语言；C 面向过程，C++面向对象
 - C/C++ 关键字比较
 
-```
+```c++
 ANSI C 32 words
 auto   break  case	  char   const	   continue	default  do
 double else	  enum     extern	float    for	   goto	   if
@@ -53,7 +53,7 @@ delete     goto         reinterpret_cast  try
 - typedef type newname;
 - enum enum-name { list of names } var-list;
 
-```
+```c++
 enum int { a, b=-1, c, d=20 } x; x=c; // a=0,c=0
 enum color { red, green, blue } c; c = blue;
 ```  
@@ -90,7 +90,7 @@ extern 存储类用于提供一个全局变量的引用，全局变量对所有�
 - mutable 仅适用于类的对象,它允许对象的成员替代常量。也就是说，mutable 成员可以通过 const 成员函数修改。  
 **struct**  
 
-```
+```c++
 struct [structure tag]
 {
    member definition;
