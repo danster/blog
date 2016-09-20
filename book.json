@@ -1,4 +1,7 @@
 {
+    "title": "Danster's Blog Book",
+    "description": "Technology Blog",
+    
     "plugins": [
         "atoc",
         "splitter",
@@ -6,6 +9,7 @@
         "github",
         "editlink"
     ],
+    
     "pluginsConfig": {
         "editlink": {
           "base": "https://github.com/danster/blog/edit/master",
@@ -15,5 +19,25 @@
         "github": {
             "url": "https://github.com/danster/blog"
         }
-    }
+    },
+    
+    // Variables for templating
+    "variables": {},
+
+    // Links in template (null: default, false: remove, string: new value)
+    "links": {
+        // Custom links at top of sidebar
+        "sidebar": {
+            "wb": "https://weibo.com"
+        },
+
+        // Sharing links
+        "sharing": {
+            "google": false,
+            "facebook": false,
+            "twitter": false,
+            "weibo": null,
+            "all": null
+        }
+    },
 }
