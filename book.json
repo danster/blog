@@ -16,7 +16,7 @@
     
     "pluginsConfig": {
         "editlink": {
-          "base": "https://github.com/danster/blog/edit/master",
+          "base": "https://www.gitbook.com/book/danster/blog/edit#/edit/master",
           "label": "EDIT",
           "multilingual": false
         },
