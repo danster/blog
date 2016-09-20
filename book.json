@@ -1,6 +1,7 @@
 {
     "title": "Danster's Blog",
     "description": "Technology Blog",
+    "generator": "website",
     
     "plugins": [
         "atoc",
@@ -35,7 +36,6 @@
             "Chengwei's Blog": "http://www.chengweiyang.cn"
         }
     }
-
 
    
 }
