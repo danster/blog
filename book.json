@@ -3,7 +3,7 @@
     "description": "Technology Blog",
     "generator": "website", 
     "styles": {
-        "website": "styles/website.css",
+        "website": "styles/website.css"
     }, 
     
     "plugins": [
