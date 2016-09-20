@@ -2,6 +2,8 @@
     "title": "Danster's Blog",
     "description": "Technology Blog",
     "generator": "website", 
+    "extension": null,
+    "isbn": null,
     "styles": {
         "website": "styles/website.css"
     }, 
