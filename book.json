@@ -22,23 +22,8 @@
     },
     
     // Variables for templating
-    "variables": {},
+    "variables": {}
 
-    // Links in template (null: default, false: remove, string: new value)
-    "links": {
-        // Custom links at top of sidebar
-        "sidebar": {
-            "wb": "https://weibo.com",
-        },
 
-        // Sharing links
-        "sharing": {
-            "google": false,
-            "facebook": false,
-            "twitter": false,
-            "weibo": null,
-            "all": null
-        }
-    }
    
 }
