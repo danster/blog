@@ -1,6 +1,10 @@
 {
     "title": "Danster's Blog",
     "description": "Technology Blog",
+    "generator": "website",
+    "styles": {
+        "website": "styles/website.css",
+    },  
     
     "plugins": [
         "atoc",
