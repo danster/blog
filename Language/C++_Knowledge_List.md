@@ -312,7 +312,7 @@ Web 服务器配置
 默认情况下，Apache Web 服务器会配置在 /var/www/cgi-bin 中运行 CGI 程序。如果您想指定其他目录来运行 CGI 脚本，您可以修改httpd.conf
 ```
 
-```
+```c++
 #include <iostream>
 using namespace std;
  
