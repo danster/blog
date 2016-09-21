@@ -1,4 +1,4 @@
-## Build Github Pages By Jekyll
+# Build Github Pages By Jekyll
 <!--toc-->
 ### 1. Create a repository
 Refer to : [Generate a site for your project quickly](https://pages.github.com/)
