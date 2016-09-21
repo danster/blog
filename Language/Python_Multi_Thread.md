@@ -1,7 +1,8 @@
-##  Python Multiple Processing & Threading
+# Python Multiple Processing & Threading
+<!--toc-->
 **[Optional Operating System Services](https://docs.python.org/2/library/someos.html)**  
 The modules described in this chapter provide interfaces to operating system features that are available on selected operating systems only. The interfaces are generally modeled after the Unix or C interfaces but they are available on some other systems as well (e.g. Windows or NT). 
-#### [`select`](https://docs.python.org/2/library/select.html)  &#8212; Waiting for I/O completion
+## [select](https://docs.python.org/2/library/select.html): Waiting for I/O completion
 **[select](http://www.cnblogs.com/Anker/archive/2013/08/14/3258674.html), [poll](http://www.cnblogs.com/Anker/archive/2013/08/15/3261006.html), [epoll](http://www.cnblogs.com/Anker/archive/2013/08/17/3263780.html) 的区别**   
 > select, poll, epoll都是IO多路复用的机制。I/O多路复用就通过一种机制，可以监视多个描述符，一旦某个描述符就绪（一般是读就绪或者写就绪），能够通知程序进行相应的读写操作。但select，poll，epoll本质上都是同步I/O，因为他们都需要在读写事件就绪后自己负责进行读写，也就是说这个读写过程是阻塞的，而异步I/O则无需自己负责进行读写，异步I/O的实现会负责把数据从内核拷贝到用户空间。  
 
@@ -15,7 +16,7 @@ IO多路复用是指内核一旦发现进程指定的一个或者多个IO条件�
 也不必维护这些进程/线程，从而大大减小了系统的开销。  
 ```
 
-##### [`select`](https://docs.python.org/2/library/select.html)
+#### [`select`](https://docs.python.org/2/library/select.html)
 select的调用过程如下所示： 
 ![](http://images.cnitblog.com/blog/305504/201308/17201205-8ac47f1f1fcd4773bd4edd947c0bb1f4.png)
 ```
@@ -38,17 +39,17 @@ Select的几大缺点：
 - 同时每次调用select都需要在内核遍历传递进来的所有fd，这个开销在fd很多时也很大
 - select支持的文件描述符数量太小了，默认是1024
 
-##### [poll](http://www.cnblogs.com/Anker/archive/2013/08/15/3261006.html) 
+### [poll](http://www.cnblogs.com/Anker/archive/2013/08/15/3261006.html) 
 poll的实现和select非常相似，只是描述fd集合的方式不同，poll使用pollfd结构而不是select的fd_set结构，其他的都差不多。  
 
-##### [epoll](http://www.cnblogs.com/Anker/archive/2013/08/17/3263780.html) 
+### [epoll](http://www.cnblogs.com/Anker/archive/2013/08/17/3263780.html) 
 > epoll既然是对select和poll的改进，就应该能避免上述的三个缺点。那epoll都是怎么解决的呢？在此之前，我们先看一下epoll和select和poll的调用接口上的不同，select和poll都只提供了一个函数——select或者poll函数。而epoll提供了三个函数，epoll_create,epoll_ctl和epoll_wait，epoll_create是创建一个epoll句柄；epoll_ctl是注册要监听的事件类型；epoll_wait则是等待事件的产生。   
 
 - 对于第一个缺点，epoll的解决方案在epoll_ctl函数中。每次注册新的事件到epoll句柄中时（在epoll_ctl中指定EPOLL_CTL_ADD），会把所有的fd拷贝进内核，而不是在epoll_wait的时候重复拷贝。epoll保证了每个fd在整个过程中只会拷贝一次。  
 - 对于第二个缺点，epoll的解决方案不像select或poll一样每次都把current轮流加入fd对应的设备等待队列中，而只在epoll_ctl时把current挂一遍（这一遍必不可少）并为每个fd指定一个回调函数，当设备就绪，唤醒等待队列上的等待者时，就会调用这个回调函数，而这个回调函数会把就绪的fd加入一个就绪链表）。epoll_wait的工作实际上就是在这个就绪链表中查看有没有就绪的fd（利用schedule_timeout()实现睡一会，判断一会的效果，和select实现中的第7步是类似的）。  
 - 对于第三个缺点，epoll没有这个限制，它所支持的FD上限是最大可以打开文件的数目，这个数字一般远大于2048,举个例子,在1GB内存的机器上大约是10万左右，具体数目可以cat /proc/sys/fs/file-max察看,一般来说这个数目和系统内存关系很大。
 
-##### 总结
+### 总结
 > select，poll实现需要自己不断轮询所有fd集合，直到设备就绪，期间可能要睡眠和唤醒多次交替。而epoll其实也需要调用epoll_wait不断轮询就绪链表，期间也可能多次睡眠和唤醒交替，但是它是设备就绪时，调用回调函数，把就绪fd放入就绪链表中，并唤醒在epoll_wait中进入睡眠的进程。虽然都要睡眠和交替，但是select和poll在“醒着”的时候要遍历整个fd集合，而epoll在“醒着”的时候只要判断一下就绪链表是否为空就行了，这节省了大量的CPU时间。这就是回调机制带来的性能提升。  
 > select，poll每次调用都要把fd集合从用户态往内核态拷贝一次，并且要把current往设备等待队列中挂一次，而epoll只要一次拷贝，而且把current往等待队列上挂也只挂一次（在epoll_wait的开始，注意这里的等待队列并不是设备等待队列，只是一个epoll内部定义的等待队列）。这也能节省不少的开销。
 
@@ -94,7 +95,7 @@ epoll.unregister(fd) # Remove a registered file descriptor from the epoll object
 epoll.poll([timeout=-1[, maxevents=-1]]) # Wait for events. timeout in seconds (float)
 ```
 
-#### **[threading](https://docs.python.org/2/library/threading.html)**  &#8212; Higher-level threading interface
+## [threading](https://docs.python.org/2/library/threading.html): Higher-level threading interface
 > **CPython implementation detail**: In CPython, due to the Global Interpreter Lock, only one thread can execute Python code at once (even though certain performance-oriented libraries might overcome this limitation). If you want your application to make better use of the computational resources of multi-core machines, you are advised to use multiprocessing. However, threading is still an appropriate model if you want to run multiple I/O-bound tasks simultaneously.
 
 functions and objects:  
@@ -123,7 +124,7 @@ threading.settrace(func) # Set a trace function for all threads started from the
 threading.setprofile(func) # Set a profile function for all threads started from the threading modul
     # The func will be passed to sys.setprofile() for each thread, before its run() method is called.
 ```
-**[Thread Object](https://docs.python.org/2/library/threading.html#thread-objects)**  
+#### **[Thread Object](https://docs.python.org/2/library/threading.html#thread-objects)**  
 
 - A new class inherit Thread, only need override the __init__() and run() methods 
 - Once a thread object is created, its activity must be started by calling the thread’s start() method. This invokes the run() method in a separate thread of control.
@@ -149,23 +150,21 @@ isAlive()
 daemon # A boolean value indicating whether this thread is a daemon thread (True) or not (False)
 isDaemon()
 ```
-**[Lock](https://docs.python.org/2/library/threading.html#lock-objects)**  
-
+#### **[Lock](https://docs.python.org/2/library/threading.html#lock-objects)**  
 - A primitive lock is in one of two states, “locked” or “unlocked”. It is created in the unlocked state. 
 - It has two basic methods, acquire(blocking=1) and release(). 
 - When more than one thread is blocked in acquire() waiting for the state to turn to unlocked, only one thread proceeds when a release() call resets the state to unlocked; which one of the waiting threads proceeds is not defined, and may vary across implementations.
 
-**[RLock](https://docs.python.org/2/library/threading.html#rlock-objects)**  
-
+#### **[RLock](https://docs.python.org/2/library/threading.html#rlock-objects)**  
 - A reentrant lock is a synchronization primitive that may be acquired multiple times by the same thread. 
 - In the locked state, some one thread owns the lock; in the unlocked state, no thread owns it.
 - acquire(blocking=1)/release() call pairs may be nested;
 - only the final release() resets the lock to unlocked and allows another thread blocked in acquire() to proceed.
 
-**[Condition](https://docs.python.org/2/library/threading.html#condition-objects)**  
+#### **[Condition](https://docs.python.org/2/library/threading.html#condition-objects)**  
 
 - A condition variable is always associated with some kind of lock
-- acquire(*args)/release() call the associated lock
+- acquire(\*args)/release() call the associated lock
 - wait([timeout])/notify(n=1)/notifyAll() must only be called when the calling thread has acquired the lock, otherwise a RuntimeError is raised.
 - wait([timeout]): releases the underlying lock, and then blocks until it is awakened by a notify() or notifyAll() call for the same condition variable in another thread, or until the optional timeout occurs.
 - wait([timeout]): Once awakened or timed out, it re-acquires the lock and returns.
@@ -175,7 +174,7 @@ isDaemon()
 - notifyAll(): Wake up all threads waiting on this condition. 
 - Note: an awakened thread does not actually return from its wait() call until it can reacquire the lock. Since notify() does not release the lock, its caller should.
 
-#### **[multiprocessing](https://docs.python.org/2/library/multiprocessing.html)**  &#8212; Process-based “threading” interface 
+## [multiprocessing](https://docs.python.org/2/library/multiprocessing.html): Process-based “threading” interface 
 > multiprocessing is a package that supports spawning processes using an API similar to the threading module. The multiprocessing package offers both local and remote concurrency, effectively side-stepping the `GIL` by using subprocesses instead of threads. Due to this, the multiprocessing module allows the programmer to fully leverage multiple processors on a given machine. It runs on both Unix and Windows.
 
 - Old Class: Lock, RLock, Condition, Event, Semaphore, BoundSemaphore, ...
@@ -183,5 +182,5 @@ isDaemon()
 - Shared Memory: Value, Array
 
 
-#### **[mmap](https://docs.python.org/2/library/mmap.html)**  &#8212; Memory-mapped file support
+## [mmap](https://docs.python.org/2/library/mmap.html): Memory-mapped file support
 
