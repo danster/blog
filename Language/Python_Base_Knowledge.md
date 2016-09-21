@@ -1,22 +1,17 @@
-## Python 必备知识点
+# Python 必备知识点
+<!--toc-->
 
-- [Python基础](#1)
-- [Python进阶](#2)
-- [Python补充](#3)
-- [Python深入](#4)
-
-#### Python Resource
+## Python Resource
 - [Python多继承](https://segmentfault.com/a/1190000004018476)
 - [linux下python调试 pdb](http://blog.csdn.net/linda1000/article/details/11031771)
 - [Pycharm对linux上python代码进行远程调试](http://blog.csdn.net/eric_sunah/article/details/20538283)
 - [Python 2.7.x 与 Python 3.x 的主要差异](http://chenqx.github.io/2014/11/10/Key-differences-between-Python-2-7-x-and-Python-3-x/)
 
-#### <a name=1>Python基础</a>
+## Python基础
 
 > 到今天，Python的框架已经确立，Python语言以对象为核心组织代码(Everything is object)，支持多种编程范式(multi-paradigm)，采用动态类型(dynamic typing)，自动进行内存回收(garbage collection)。Python支持解释运行(interpret)，并能调用C库进行拓展。Python有强大的标准库 (battery included)。由于标准库的体系已经稳定，所以Python的生态系统开始拓展到第三方包。这些包，如Django, web.py, wxpython, numpy, matplotlib,PIL，将Python升级成了物种丰富的热带雨林。
 
-**序列**
-
+### 序列
 ```
 sequence(序列)是一组有顺序的元素的集合(tuple and list)
 sequence范围 [下限:上限:步长]
@@ -24,8 +19,7 @@ sequence范围 [下限:上限:步长]
 tuple元素不可变，list元素可变
 ```
 
-**基本数据类型**
-
+### 基本数据类型
 ```
 基本数据类型(标准类型): 数字, str, tuple, list, dict, set, frozenset
 不可变&可哈希: 数字, str, tuple, frozenset
@@ -45,7 +39,7 @@ dict: key必须是不可变&可哈希, value可以是任意对象
 |set|容器|可变|循环遍历, in, not in|无序|
 |frozenset|容器|不可变|循环遍历, in, not in|无序|
 
-**类与对象**
+### 类与对象
 
 ```Python
 class Boy(object):
@@ -63,8 +57,8 @@ print help(Jim) #help()用来查询类或对象所属类的说明文档
 类属性被所有同一类及其子类的对象共享。类属性值的改变会影响所有的对象。
 
 
-#### <a name=2>Python进阶</a>
-**文件**
+## Python进阶
+### 文件
 
 ```python
 f = open(文件名，模式)  # "r"只读 "w"写入
@@ -74,7 +68,7 @@ f.readlines() # 读取所有行，储存在列表中，每个元素是一行
 f.write(str) 
 f.close()
 ```
-**模块**
+### 模块
 
 ```
 1. 在Python中，一个.py文件就构成一个模块
@@ -98,7 +92,7 @@ if __name__ == '__main__': #如果是import test,该__name__等于"test"
     print "Hello"
 ```
 
-**包裹关键字传递**
+### 包裹关键字传递
 
 ```python
 def func(*name):
@@ -117,7 +111,7 @@ func(a=1,b=9)
 #但在过程中要小心前后顺序。
 #基本原则是: 先位置，再关键字，再包裹位置，再包裹关键字
 ```
-**解包裹**
+### 解包裹
 
 ```python
 def func(a,b,c):
@@ -128,7 +122,7 @@ func(*args)
 dict = {'a':1,'b':2,'c':3}
 func(**dict)
 ```
-**循环**
+### 循环
 
 ```
 range() -> list of int  
@@ -159,9 +153,9 @@ map(function, sequence) :                      def fun(s): return s*10
 filter(function, sequence) :                   def fun(s): return s if s != 1 else None
 reduce(function, sequence[, starting_value]) : def fun(a, b): return a + b
 ```
-**[迭代器和生成器](http://python.jobbole.com/81881/)**
+### **[迭代器和生成器](http://python.jobbole.com/81881/)**
 
-**[异常处理](http://www.runoob.com/python/python-exceptions.html)**
+### **[异常处理](http://www.runoob.com/python/python-exceptions.html)**
 
 ```python
 try:
@@ -180,9 +174,9 @@ finally:
     ...
 ```
 
-#### <a name=3>Python补充</a>
+## Python补充
 
-**Python内置函数清单**
+### Python内置函数清单
 
 ```
 基本数据类型 type()
@@ -260,7 +254,7 @@ globals()                         # 返回全局命名空间，比如全局变�
 locals()                          # 返回局部命名空间
 ```
 
-**字符串格式化**
+### 字符串格式化
 
 ```
 模板
@@ -295,8 +289,8 @@ flags可以有+,-,' '或0
 0表示使用0填充.
 ```
 
-#### <a name=4>Python深入</a>
-**multi-paradigm**
+## Python深入
+### multi-paradigm
 
 ```
 Python还是一个多范式语言(multi-paradigm),你不仅可以使用面向对象的方式来编写程序，
@@ -305,7 +299,7 @@ Python的多范式依赖于Python对象中的特殊方法(special method), 特�
 特殊方法又被成为魔法方法(magic method)，定义了许多Python语法和表达方式，
 ```
 
-**上下文管理器 with...as...**
+### 上下文管理器 with...as...
 
 任何定义了\_\_enter\_\_()和\_\_exit__()方法的对象都可以用于上下文管理器。  
 文件对象f是内置对象，所以f自动带有这两个特殊方法，不需要自定义。
@@ -340,7 +334,7 @@ finally:
     VAR.__exit__()
 ```
 
-**属性&特性**
+### 属性&特性
 
 ```python
 # 对象的属性可能来自于其类定义，叫做类属性(class attribute),
@@ -387,7 +381,7 @@ del x.neg   #del
 # 它们的应用面更广，可用于任意属性。
 
 ```
-**闭包**
+### 闭包
 
 > 闭包(closure)是函数式编程的重要的语法结构。函数式编程是一种编程范式 (而面向过程编程和面向对象编程也都是编程范式)。
 
@@ -409,7 +403,7 @@ print(my_line.__closure__[0].cell_contents)
 # 我们看到第一个cell包含的就是整数15，也就是我们创建闭包时的环境变量b的取值。
 ```
 
-**[装饰器(decorator)](http://www.cnblogs.com/vamei/archive/2013/02/16/2820212.html)**
+### [装饰器(decorator)](http://www.cnblogs.com/vamei/archive/2013/02/16/2820212.html)
 
 > 装饰器可以对一个函数、方法或者类进行加工
 
@@ -464,7 +458,8 @@ class Bird:
         print("My age is",self.age)    
 ```
 
-**[linux下python调试](http://blog.csdn.net/linda1000/article/details/11031771)**  
+### [linux下python调试](http://blog.csdn.net/linda1000/article/details/11031771) 
+#### pdb  
 python -m pdb myscript.py # 这样调用myscript.py的话断点就是程序的执行第一行之前  
 在Python交互环境中启用调试  
 ```
@@ -483,7 +478,6 @@ if __name__ == "__main__":
 ```
 ```
 (Pdb) command
-
 一些常用指令：
 h(elp) [comman]  #打印可用指令及帮助信息
 r(eturn)  #运行代码直到下一个断点或当前函数返回
@@ -504,7 +498,42 @@ cl(ear) [filename:lineno | bpnumber [bpnumber]] #删除断点
 q(uit)/exit  #中止调试并退出
 ```
 
-**[Python的内存管理](http://www.cnblogs.com/vamei/p/3232088.html)**
+#### pudb
+安装:pip install pudb  
+本地调试: 在需要加断点的地方直接加入代码`import pudb; pu.db`, 或者使用pudb直接运行脚本，例如：pudb my-script.py  
+远程调试:  
+```
+在需要加断点的地方直接加入以下代码
+from pudb.remote import set_trace;set_trace(term_size=(153, 39))
+运行到上述代码，程序会暂停并显示：pudb:6899: Please telnet into 127.0.0.1 6899
+在另外一个命令行窗口，运行：
+telnet 127.0.0.1 6899
+使用pudb 16.1版本，centos 7下面验证过本地调试openstack Mitaka 版本l3 agent的主线程和工作线程，
+在ubuntu 14.04下面可以调试主线程，工作线程需要用远程调试。
+```
+
+Openstack多线程调试设置:  
+```
+Python中的并发，在Python中，并发有三种，分别是：
+进程：Python中一般使用multiprocessing/subprocess来实现
+线程：threading/thread是Python中用来实现多线程的模块
+协程(Coroutines)：Python中用于处理协程的模块比较多，有eventlet、Twisted、Tulip、asyncio等
+
+eventlet是一个用来处理和网络相关的python库函数，而且可以通过协程来实现并发，
+在eventlet里，把“协程”叫做greenthread(绿色线程)。
+所谓并发，就是开启了多个greenthread，并且对这些greenthread进行管理，以实现非阻塞式的I/O
+
+在neutrone的源代码common/eventlet_utils.py中，
+ if os.name == 'nt':
+	eventlet.monkey_patch(os=False, thread=False)
+else:
+	eventlet.monkey_patch()
+这种设置中，直接使用pudb，断点是不会生效的。
+必须改成：eventlet.monkey_patch(all=False, socket=True, time=True, thread=True)
+```
+
+
+### [Python的内存管理](http://www.cnblogs.com/vamei/p/3232088.html)
 
 > Python作为一种动态类型的语言，其对象和引用分离。这与曾经的面向过程语言有很大的区别。为了有效的释放内存，Python内置了垃圾回收的支持。Python采取了一种相对简单的垃圾回收机制，即引用计数，并因此需要解决孤立引用环的问题。
 
