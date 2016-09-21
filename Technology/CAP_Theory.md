@@ -1,5 +1,4 @@
-## 谈谈对CAP定理的理解 
-
+# 谈谈对CAP定理的理解 
 <!--toc-->
 
 > CAP定理的常规解释是任何分布式系统只能在一致性(Consitency)，可用性(Availability)和分区容忍性(Partition Tolerance)中三选二。
