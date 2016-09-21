@@ -1,25 +1,13 @@
-## Linux Base Tools
-###index
-- [hot key](#key)
-- [ls](#ls)
-- [bash wildcard](#wildcard)
-- [bash special symbols](#special_symbol)
-- [撷取命令：cut, grep](#cut)
-- [排序命令：sort, wc, uniq](#sort)
-- [双向重导向：tee](#tee)
-- [字符转换命令：tr, col, join, paste, expand](#tr)
-- [分割命令：split](#split)
-- [参数代换：xargs](#xargs)
-- [diff, cmp, patch](#diff)
-
-#### <a name=key>hot key</a>
+# Linux Base Tools
+<!-- toc -->
+#### hot key
 `ctrl` + `c` : cancel current cmd and stay at new line  
 `ctrl` + `u` : clear current cmd   
 `alt` + `shift` + `#` : make current cmd a comment if you want to keep it history  
 `ctrl` + `l` : clear terminal and stay at current cmd, we can scroll back to view the last used commands  
 `clear` : clear terminal and stay at new line, we can scroll back to view the last used commands   
 
-#### <a name=ls>ls</a>
+#### ls
 ```
 >ls -l  # shows file or dir, size, time, name, owner, permission ...
 >ls -a  # views hidden files
@@ -38,7 +26,7 @@
 ```  
 >Reference: http://www.tecmint.com/15-basic-ls-command-examples-in-linux/
 
-#### <a name=wildcard>bash wildcard</a>
+#### bash wildcard
 |符号|意义|
 |---|---|
 | * |代表『 0 个到无穷多个』任意字符|
@@ -47,7 +35,7 @@
 | [ - ] |若有减号在中括号内时，代表『在编码顺序内的所有字符』。例如 [0-9] 代表 0 到 9 之间的所有数字，因为数字的语系编码是连续的！|
 | [ ^ ] |若中括号内的第一个字符为指数符号 ( \^ ) ，那表示『反向选择』，例如 [\^abc] 代表 一定有一个字符，只要是非 a, b, c 的其他字符就接受的意思。|
 
-####<a name=special_symbol>bash 环境中的特殊符号</a>
+#### bash 环境中的特殊符号
 
 |符号|意义|
 |---|---|
@@ -89,7 +77,7 @@
 - &0代表stdin, &1代表stdout, &2代表stderr
 - command > out.file  2> &1 标准输出重定向到out.file文件，即将标准出错也输出到out.file文件中
 
-####<a name=cut>撷取命令：cut,grep</a>
+#### 撷取命令：cut,grep
 
 > 撷取命令就是将一段数据经过分析后，取出我们所想要的。或者是经由分析关键词，取得我们所想要的那一行！   
 > 一般来说，撷取信息通常是针对『一行一行』来分析的， 并不是整篇信息分析的.
@@ -126,7 +114,7 @@ grep 则是分析一行信息， 若当中有我们所需要的信息，就将�
 
 ```
 
-####<a name=sort>排序命令：sort, wc, uniq</a>
+#### 排序命令：sort, wc, uniq
 
 ```
 [root@www ~]# sort [-fbMnrtuk] [file or stdin]
@@ -184,7 +172,7 @@ bin:x:1:1:bin:/bin:/sbin/nologin
 [root@www ~]# ls -l / | tee -a ~/homefile | more
 # 要注意！ tee 后接的文件会被覆盖，若加上 -a 这个选项则能将信息累加。
 ```
-####<a name=tr>字符转换命令：tr, col, join, paste, expand</a>
+#### 字符转换命令：tr, col, join, paste, expand
 
 - tr: 可以用来删除一段信息当中的文字，或者是进行文字信息的替换
 - col: 将 [tab] 按键取代成为空格键
@@ -248,7 +236,7 @@ bin:x:1:root,bin,daemon
 # 同样的，相同的字段部分被移动到最前面了！所以第二个文件的内容就没再显示。
 ```
 
-####<a name=split>分割命令 split: 依据文件大小或行数来分割成为小文件</a>
+#### 分割命令 split: 依据文件大小或行数来分割成为小文件
 
 ```
 [root@www ~]# split [-bl] file PREFIX
@@ -265,7 +253,7 @@ PREFIX ：代表前导符的意思，可作为分割文件的前导文字。
 # 小文件会以xxxaa, xxxab, xxxac 等方式来创建！
 ```
 
-####<a name=xargs>参数代换 xargs：产生某个命令的参数</a>
+#### 参数代换 xargs：产生某个命令的参数
 
 xargs 可以读入 stdin 的数据，并且以空格符或断行字符作为分辨，将 stdin 的数据分隔成为 arguments 。
 
@@ -299,7 +287,7 @@ finger uucp operator games gopher ftp ?...y
 ....(底下省略)....
 ```
 
-####<a name=diff>文件比对工具 diff, cmp, pacth</a>
+#### 文件比对工具 diff, cmp, pacth
 ```
 # diff --help
 Usage: diff [OPTION]... FILES # FILES are `FILE1 FILE2' or `DIR1 DIR2' or `DIR FILE...' or `FILE... DIR'.
