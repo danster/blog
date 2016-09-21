@@ -1,11 +1,8 @@
-## Linux Senior Tools
-#### Index
-- [基础正规表示式字符汇整](#reg)
-- [sed](#sed)
-- [awk](#awk)
-- [Linux工具快速教程](#tool)
+# Linux Senior Tools
+<!-- toc -->
 
-###<a name=reg>基础正规表示式字符汇整</a>
+### 基础正规表示式字符汇整
+
 | RE 字符|	意义与范例 |
 |--------|----------|
 |^word| 意义：待搜寻的字串(word)在行首！<br/>范例：搜寻行首为 # 开始的那一行，并列出行号<br/>grep -n '^#' regular_express.txt
@@ -21,7 +18,7 @@
 - grep, sed, tr, vim支持：正规表示式
 - ls 不支持正规表示式
 
-### <a name=sed>sed</a>
+### sed
 管道命令 sed 可以将数据进行取代、删除、新增、撷取特定行等等的功能
 
 ```
@@ -77,7 +74,7 @@ s   ：取代，可以直接进行取代的工作哩！通常这个 s 的动作�
 [root@www ~]# sed -i 's/\.$/\!/g' regular_express.txt
 # 上头的 -i 选项可以让你的 sed 直接去修改后面接的文件内容而不是由萤幕输出喔！
 ```
-#### <a name=awk>awk</a>
+### awk
 **AWK语言详解**: http://awk.readthedocs.io/en/latest/chapter-two.html  
 
 相较於 sed 常常作用於一整个行的处理，awk 则比较倾向於一行当中分成数个『栏位』来处理。因此，awk 相当的适合处理小型的数据数据处理呢！   
@@ -149,7 +146,7 @@ bin      1
 daemon   2
 ....(以下省略)....
 ```
-### <a name=tool>Linux工具快速教程</a>
+### Linux工具快速教程
 
 <div class="toctree-wrapper compound">
 <ul>
