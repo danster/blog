@@ -170,7 +170,7 @@ Linux 都是透过 VFS核心功能去读取 filesystem
 - 解析Linux中的VFS文件系统机制: http://www.ibm.com/developerworks/cn/linux/l-vfs/index.html
 - 硬盘的读写原理: (http://blog.csdn.net/hguisu/article/details/7408047)
 
-## Linux File
+Linux File
 
 - 非纯文字档查看命令： od
 - cp 会复制执行者的属性与权限
