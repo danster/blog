@@ -1,5 +1,7 @@
 # How to draw a topology graph by Dot
-<!--toc-->
+
+<!-- toc -->
+
 ### Dot language
 
 ```
