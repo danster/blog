@@ -1,5 +1,5 @@
 # Munin 2.06 Install&Analysis
-<!--toc-->
+<!-- toc -->
 ### Munin install
   OS: Ubuntu 12.04 LTS  
   Web server : Apache2 or Nginx
