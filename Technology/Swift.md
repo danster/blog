@@ -1,5 +1,6 @@
 # Install Swift and KeyStone on CentOS 7
-<!--toc-->
+
+<!-- toc -->
 
 ## Design Architect
 
