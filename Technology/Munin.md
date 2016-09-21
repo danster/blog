@@ -1,25 +1,16 @@
-## Munin 2.06 Install&Analysis
-
-- <a href="#munin-node">munin-node install</a>
-- <a href="#munin-master">munin master install </a>
-- <a href="#apache">apache configure</a>
-- <a href="#nginx">nginx configure</a>
-- <a href="#run">start munin monitor</a>
-- <a href="#analysis">munin parameters analysis</a>
-
+# Munin 2.06 Install&Analysis
+<!--toc-->
 ### Munin install
   OS: Ubuntu 12.04 LTS  
   Web server : Apache2 or Nginx
-
-### <a id="munin-node">munin-node </a>
+### munin-node
 > sudo apt-get install munin-node <br>
 > sudo vi /etc/munin/munin-node.conf
 
 	allow ^172\.26\..*$
 	allow ^172\.26\.183\.77*$ # ip addr of munin master
-
-###<a id="munin-master">munin</a>
-
+    
+### munin
 **Adding Debian Backport Repository**
 
 Create and edit /etc/apt/sources.list.d/backports.list and add:
@@ -85,7 +76,7 @@ and finally, install Munin from the squeeze-backports:
 	sudo chmod o+r /var/log/munin/munin-cgi-graph.log
 	sudo chmod o+r /var/log/munin/munin-cgi-html.log
 
-###<a id="apache"> Apache2 </a>
+###Apache2
 
 **/etc/apache2/apache2.conf**
 
@@ -217,7 +208,7 @@ and finally, install Munin from the squeeze-backports:
 
 >htcacheclean - 清理磁盘缓冲区
 
-###<a id="nginx">Nginx</a>
+### Nginx
 
 > sudo apt-get install nginx
 
@@ -268,11 +259,11 @@ and finally, install Munin from the squeeze-backports:
 	        }
 	}
 
-###<a id="run">start munin monitor </a>
+### start munin monitor
 
 > use htop to see progress list  ------ > htop
 
-### Nginx server
+#### Nginx server
 > my nginx location : /usr/local/nginx
 
 	sudo service munin-node start   
@@ -293,7 +284,7 @@ and finally, install Munin from the squeeze-backports:
     ...
     sudo service *** stop
 
-###<a id="analysis"> Munin parameters analysis </a>
+### Munin parameters analysis
 
 
 #### knowledge
@@ -308,7 +299,7 @@ Filedname type: their difference refer to the blog : *http://blog.liuts.com/post
 
 **ABSOLUTE** : is for counters which get reset upon reading. This is used for fast counters which tend to overflow. So instead of reading them normally you reset them after every read to make sure you have a maximum time available before the next overflow. Another usage is for things you count like number of messages since the last update.
 
-Network Packets : Common packets structure length is 46~1500 bytes , refer to *http://bdxnote.blog.163.com/blog/static/8444235200811575426843/*
+Network Packets : Common packets structure length is 46~1500 bytes , refer to http://bdxnote.blog.163.com/blog/static/8444235200811575426843/
 
 ----------
 
