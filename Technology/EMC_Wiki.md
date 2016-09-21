@@ -1,5 +1,5 @@
-#WIKI
-https://cig-wiki.isus.emc.com/mediawiki/index.php/LeoHuang%27s_Wiki#CDP
+# WIKI
+https://cig-wiki.isus.xxx.xxx/mediawiki/index.php/LeoHuang%27s_Wiki#CDP
 
 - [Openssl Ciphers Research](#Openssl)
 - [CDP ssl weak ciphers](#CDP)
