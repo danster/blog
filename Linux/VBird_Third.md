@@ -1,11 +1,7 @@
-## 鸟哥的Linux私房菜基础篇_下 -- 软件安装、Linux备份、核心编译  
+# 鸟哥的Linux私房菜基础篇_下 -- 软件安装、Linux备份、核心编译  
+<!-- toc -->
 
-- [第二十二章、软件安装：原始码与 Tarball](#22)
-- [第二十三章、软件安装：RPM, SRPM 与 YUM 功能 ](#23)
-- [第二十五章、Linux 备份策略](#25)
-- [第二十六章、核心编译](#26)
-
-###<a name=22>[第二十二章、软件安装：原始码与 Tarball](http://vbird.dic.ksu.edu.tw/linux_basic/0520source_code_and_tarball.php)</a>
+### [第二十二章、软件安装：原始码与 Tarball](http://vbird.dic.ksu.edu.tw/linux_basic/0520source_code_and_tarball.php)
 
 Linux 系统上真正认识的可运行档其实是二进位文件 (binary program)，例如 /usr/bin/passwd, /bin/touch
 
@@ -330,7 +326,7 @@ RPM 属性相依的克服方式： **YUM** 线上升级：在有要安装软件�
 
 RPM 文件安装完毕后，该软件相关的资讯就会被写入 /var/lib/rpm/ 目录下的数据库文件中，我们有任何软件升级的需求，版本之间的比较就是来自於这个数据库， 而如果你想要查询系统已经安装的软件，也是从这里查询的。
 
-```
+```shell
 [root@www ~]# rpm -qa                          <==已安装软件
 [root@www ~]# rpm -q[licdR] 已安装的软件名称      <==已安装软件
 [root@www ~]# rpm -qf 存在於系统上面的某个档名     <==已安装软件
@@ -414,7 +410,7 @@ extras          CentOS-5 - Extras          enabled
 updates         CentOS-5 - Updates         enabled
 ```
 
-###<a name=25>[第二十五章、Linux 备份策略](http://vbird.dic.ksu.edu.tw/linux_basic/0580backup.php)</a>
+### [第二十五章、Linux 备份策略](http://vbird.dic.ksu.edu.tw/linux_basic/0580backup.php)
 
 **哪些 Linux 数据具有备份的意义**
 
