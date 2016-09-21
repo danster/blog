@@ -1,9 +1,6 @@
 # Linux 目录与文件
-
 <!-- toc -->
-
 ## Filesystem Hierarchy Standard
-
 FHS（Filesystem Hierarchy Standard 文件系统层次结构标准），多数 Linux 版本采用这种文件组织形式，FHS 定义了系统中每个区域的用途、所需要的最小构成的文件和目录同时还给出了例外处理与矛盾处理。 
 
 FHS定义了两层规范，第一层是 `/` 下面的各个目录应该要放什么文件数据，如/etc应该放设置文件，/bin、/sbin 放可执行文件等等。第二层则是针对 `/usr` 及 `/var` 这两个目录的子目录来定义。例如 /var/log 放置系统登录文件、/usr/share 放置共享数据等等。
