@@ -11,10 +11,14 @@
     ],
     
     "pluginsConfig": {
+         "atoc": {
+            "addClass": true,
+            "className": "atoc"
+        },
         "editlink": {
-          "base": "https://www.gitbook.com/book/danster/blog/edit#/edit/master",
-          "label": "EDIT",
-          "multilingual": false
+            "base": "https://www.gitbook.com/book/danster/blog/edit#/edit/master",
+            "label": "EDIT",
+            "multilingual": false
         },
         "github": {
             "url": "https://github.com/danster/blog"
