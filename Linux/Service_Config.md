@@ -1,15 +1,5 @@
-## Linux Service Configuration
-### Index
-- [Common Configration](#com)
-- [User Management](#user)
-- [Network](#net)
-- [Package Source](#source)
-- [Locale](#locale)
-- [Samba](#samba)
-- [Tmux](#tmux)
-- [ngrok,mobi](#ngrok)
-- [Vi/Vim](#vim)
-
+# Linux Service Configuration
+<!-- toc -->
 ### Common Configration
 - [ubuntu] locale   
 ```
@@ -22,19 +12,20 @@ LANGUAGE=en_US.UTF-8
 - [ubuntn] hostname => vi /etc/hostname
 
 ### User Management
+
 - create a user: useradd
 - create a group: groupadd
 - change : chown, chmod
-- add user to sudoer: sudo adduser <username> sudo  or vi /etc/sudoers
+- add user to sudoer: sudo adduser username sudo  or visudo
 - find out user group identity: id -nG {user-name} 
 - add a existing user to existing group : usermod -a {groupname1,groupname2,...} {username}
 - remove a existing user from existing groups: usermod -G {groupname1,groupname2,...} {username}
 
-### Network
+#### Network
 
 **CentOS**: http://blog.earth-works.com/2012/09/16/setting-up-centos-configure-the-network/
 
-```
+```shell
 [leo@centOS ~]$ cat /etc/sysconfig/network-scripts/ifcfg-eth0
 DEVICE=eth0
 BOOTPROTO=none
