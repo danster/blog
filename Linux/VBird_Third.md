@@ -1,4 +1,5 @@
 # 鸟哥的Linux私房菜基础篇_下 -- 软件安装、Linux备份、核心编译  
+
 <!-- toc -->
 
 ### [第二十二章、软件安装：原始码与 Tarball](http://vbird.dic.ksu.edu.tw/linux_basic/0520source_code_and_tarball.php)
