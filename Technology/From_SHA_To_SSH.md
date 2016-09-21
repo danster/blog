@@ -1,5 +1,5 @@
-## From SHA to SSH
-
+# From SHA to SSH
+<!--toc-->
 > 信息的加密和解密在计算机通信中是时刻存在的，因为它是计算机通信安全的基石，这样一个庞大的知识领域想一下子弄清楚是很难的，但是只要我们梳理一下，从几个关键的概念入手，顺序渐进，由浅入深，计算机网络中的信息安全大门我们肯定能进去的！   
 > 我在这里整理了一些网络上的资源，希望能对大家学习这方面的知识有些帮助。
 
@@ -26,7 +26,6 @@ md5, sha-1 是两种加密算法，它们将数据进行分组散列，最后生
 [RSA算法原理（一）](http://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html)  
 [RSA算法原理（二）](http://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html)
 
-
 ## SSL (Secure Sockets Layer) 与  TLS(Transport Layer Security)
 提到计算机的信息通信安全，就不得不说到互联网的通信安全。而互联网的通信安全，建立在SSL/TLS协议之上。
 
@@ -45,7 +44,6 @@ SSL/TLS协议的基本过程是这样的：
 协议的具体运行机制可以参考以下几篇网络日志:  
 [SSL/TLS协议运行机制的概述](http://www.ruanyifeng.com/blog/2014/02/ssl_tls.html)  
 [Https(SSL/TLS)原理详解](http://www.fenesky.com/blog/2014/07/19/how-https-works.html)
-
 
 ---
 > RSA 在计算机通信领域使用的一个例子就是SSH工具。  
