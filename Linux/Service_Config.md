@@ -1,7 +1,10 @@
 # Linux Service Configuration
+
 <!-- toc -->
+
 ### Common Configration
 - [ubuntu] locale   
+
 ```
 # vi /etc/default/locale 
 LC_ALL=en_US.UTF-8 
@@ -55,6 +58,7 @@ domain lss.xxx.com
 ### Package Source
 - yum: http://liaoph.com/linux-yum-tutorial/
 - apt-get: vi /etc/apt/sources.list  
+
 ```
 #deb cdrom:[Ubuntu-Server 14.04.1 LTS _Trusty Tahr_ - Release amd64 (20140722.3)]/ trusty main restricted
 
