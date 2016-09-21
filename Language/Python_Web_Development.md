@@ -1,9 +1,10 @@
-####<a name=5>Python网络基础</a>
----
+# Python网络基础
+
+<!--toc-->
 
 > 使用Python标准库中的一些高级包简化Python服务器，最终的效果分离静态内容、CGI应用和服务器，降低三者之间的耦合，让代码变得简单而容易维护。
 
-**TCP/IP和socket**
+### **TCP/IP和socket**
 
 > socket是进程间通信的一种方法 (参考Linux进程间通信)，它是基于网络传输协议的上层接口。socket有许多种类型，比如基于TCP协议或者UDP协议(两种网络传输协议)。其中又以TCP socket最为常用。
 > 
@@ -11,7 +12,7 @@
 > 
 > 一个socket包含四个地址信息: 两台计算机的IP地址和两个进程所使用的端口(port)。IP地址用于定位计算机，而port用于定位进。
 
-TCP socket
+### TCP socket
 
 ```python
 # Server side
@@ -47,7 +48,7 @@ print 'reply is: ',reply
 
 > socket包是比较底层的包。Python标准库中还有高层的包，比如SocketServer，SimpleHTTPServer，CGIHTTPServer，cgi。这些都包都是在帮助我们更容易的使用socket。
 
-HTTP服务器端
+### HTTP服务器端
 
 ```python
 import socket
@@ -132,7 +133,7 @@ Content-Type: text/html # head (它和body之间有一个空行)
 </html>
 ```
 
-**SocketServer**
+### **SocketServer**
 
 ```python
 import SocketServer
@@ -164,7 +165,7 @@ server.serve_forever() # Start the server, and work forever
 # 这里的通信基于TCP协议, 而不是HTTP协议,因此我们必须手动的解析HTTP协议.
 ```
 
-**SimpleHTTPServer**  
+### **SimpleHTTPServer**  
 > SimpleHTTPServer可以用于处理GET方法和HEAD方法的请求。它读取request中的URL地址，找到对应的静态文件，分析文件类型，用HTTP协议将文件发送给客户
 
 ```
@@ -178,7 +179,7 @@ server.serve_forever()
 # 这里的程序不能处理POST请求 
 # 如果URL指向一文件夹而没有指定文件时，SimpleHTTPServer会读取该文件夹下的index.html文件
 ```
-**CGIHTTPServer**  
+### **CGIHTTPServer**  
 > CGI (Common Gateway Interface)是服务器和应用脚本之间的一套接口标准。它的功能是让服务器程序运行脚本程序，将程序的输出作为response发送给客户。总体的效果，是允许服务器动态的生成回复内容，而不必局限于静态文件。
 > 
 > CGIHTTPServer包中的CGIHTTPRequestHandler类继承自SimpleHTTPRequestHandler类，所以可以用来提供静态文件的服务。此外，CGIHTTPRequestHandler类还可以用来运行CGI脚本。
