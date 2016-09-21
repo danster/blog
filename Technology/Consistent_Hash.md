@@ -1,7 +1,7 @@
-## Analysis on consistent hashing 
+# Analysis on consistent hashing 
+<!--toc-->
 
 ### Hash
-
 What’s hash ?  
 > Hash just is a map function from a set to another set, we can find a value of Set-B by use of a key of Set-A through hash function.
 
@@ -13,9 +13,7 @@ Hash table
 >Hash table is equivalent to hash map.  
 Hash table is a data structure used to implement an associative array, a structure that can map keys to values.   
 Hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
-
-![](/images/hash01.png)
-
+![](hash_1.jpg)
 ### Consistent Hashing
 
 **Consistent hashing** is a special kind of hashing such that when a hash table is resized and consistent hashing is used, only K/n keys need to be remapped on average, where K is the number of keys, and n is the number of slots. 
@@ -24,16 +22,16 @@ The consistent hashing concept applies to the design of **distributed hash table
 
 ### Algorithm
 1. Arrange key namespace   
-![](/images/hash02.png)
+![](hash_2.jpg)
 2. Map object to key namespace   
-![](/images/hash03.png)
+![](hash_3.jpg)
 3. Map cache to key namespace    
 4. Map the object to cache    
-![](/images/hash04.png)
+![](hash_4.jpg)
 5. Remove a cache  
-![](/images/hash05.png)
+![](hash_5.jpg)
 6. Add a cache   
-![](/images/hash06.png)
+![](hash_6.jpg)
  
 **New problem : Balance issue**  
 
@@ -52,7 +50,7 @@ The consistent hashing concept applies to the design of **distributed hash table
 Cache A1 and A2 are for cache A  
 Cache C1 and C2 are for cache C
 
-![](/images/hash07.png)
+![](hash_7.jpg)
 
 **Object -> virtual nodes**  
 object1->cache A2 object2->cache A1  
@@ -63,7 +61,7 @@ object1,2->cache A object3,4->cache C
 
 After importing virtual nodes, the map relation is changed from “object to cache” to “object to virtual node”.
 
-![](/images/hash08.png)
+![](hash_8.jpg)
 
 ### Distributed Hash Table
 
@@ -82,8 +80,7 @@ Any other client can then retrieve the contents of the file by again hashing *fi
 
 **Example**: Resolving key 26 from node 1 and key 12 from node 28 in a DHT system.  
 
-![](/images/hash09.png)
-
+![](hash_9.jpg)
 ### Usage
 #### 1. Memcache
 Memcache is a **distributed cached system**.
@@ -132,16 +129,16 @@ Dynamo is a highly available key-value storage system that some of Amazon’s co
 Data in Dynamo is partitioned and replicated using consistent hashing, Dynamo uses it to partition its key space across its replicas and to ensure uniform load distribution.
 
 The right figure shows the partitioning and replication of keys in Dynamo ring.
-
-![](/images/hash10.png)
+![](hash_10.jpg)
 
 The architecture of amazon is distributed and decentralized completely.
 
-![](/images/hash11.png)
+![](hash_11.jpg)
 
 #### 3. Swift
 
-1. The **OpenStack** Object Store project, known as Swift, offers cloud storage software so that you can store and retrieve lots of data with a simple API.   
+1. The **OpenStack** Object Store project, known as Swift, offers cloud storage software so that you can store and retrieve lots of data with a simple API.  
+ 
 - Swift is built for scale and optimized for durability, availability, and concurrency across the entire data set. It is ideal for storing **unstructured data** that can grow without bound.  
 - Swift uses the principle of consistent hashing. It builds some **rings**, a ring represents the space of all possible computed hash values divided in equivalent parts. Each part of this space is called a **partition**.
 
@@ -150,14 +147,11 @@ The architecture of amazon is distributed and decentralized completely.
 - Swift wants you to build 3 different and independent **rings** to store its 3 kind of things (accounts, containers and objects).
 - This 3 rings can be stored and managed on 3 completely different set of servers.
 
-![](/images/hash12.png)
+![](hash_12.jpg)
 
 > When you put something in one of the 3 rings (an account, a container or an object), it is uploaded into all the zones responsible for the ring partition the object belongs to. 
-
 > This upload into the different zones is the responsibility of the swift-proxy daemon
-
-![](/images/hash13.png)
-
+![](hash_13.jpg)
 
 ### Reference
 
