@@ -31,5 +31,4 @@
    * [Munin 2.06](Technology/Munin.md)
    * [Create Github Pages by Jekyll](Technology/Jekyll_Github_Pages.md)
    * [Draw topology graph by Pydot](Technology/Dot_and_Pydot.md)
-   * [EMC WIKI](Technology/EMC_Wiki.md)
 
