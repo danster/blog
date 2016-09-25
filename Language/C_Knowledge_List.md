@@ -1,5 +1,5 @@
 # C 学习笔记
-<!--toc-->
+<!-- toc -->
 
 ### C Hello World
 ```
