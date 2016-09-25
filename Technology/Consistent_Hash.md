@@ -1,7 +1,5 @@
 # Analysis on consistent hashing 
-
 <!-- toc -->
-
 ### Hash
 What’s hash ?  
 > Hash just is a map function from a set to another set, we can find a value of Set-B by use of a key of Set-A through hash function.
