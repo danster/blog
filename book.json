@@ -24,6 +24,10 @@
             "url": "https://github.com/danster/blog"
         }
     },
+    
+    "styles": {
+        "website": "styles/website.css"
+    },
 
     "links": {
         "sharing": {
