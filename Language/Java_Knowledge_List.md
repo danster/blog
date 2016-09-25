@@ -1,6 +1,6 @@
 
 # Java Knowledge List
-<!--toc-->
+<!-- toc -->
 
 ## 多态性：[Java中interface与abstract class的使用](http://blog.csdn.net/chenssy/article/details/12858267)
 
