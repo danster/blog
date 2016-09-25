@@ -1,6 +1,7 @@
 # Tips of Ubuntu
+<!-- toc -->
 > these tips are about ubuntu14.04LTS-64bit trusty on thinkpad-x240 . the start operations recorded here, you can view my shell history in ~/.bash_history .
-<!--toc-->
+
 #### basic softwares and settings 
 
 - apt-get update
