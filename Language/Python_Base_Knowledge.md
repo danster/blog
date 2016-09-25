@@ -1,5 +1,5 @@
 # Python 必备知识点
-<!--toc-->
+<!-- toc -->
 
 ## Python Resource
 - [Python多继承](https://segmentfault.com/a/1190000004018476)
