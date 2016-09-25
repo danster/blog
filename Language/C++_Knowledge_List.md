@@ -1,5 +1,5 @@
 # C++ 学习笔记
-<!--toc-->
+<!-- toc -->
 
 #### C++ Knowledge Link
 * C++ 入门教程 http://www.runoob.com/cplusplus/cpp-tutorial.html
