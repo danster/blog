@@ -1,5 +1,5 @@
 # Python 必备知识点
-<!--toc-->
+<!-- toc -->
 
 ## Python Resource
 - []()

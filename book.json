@@ -3,7 +3,7 @@
     "description": "Technology Blog",
 
     "plugins": [
-        "atoc",
+        "toc",
         "splitter",
         "anchors",
         "github",
@@ -11,9 +11,9 @@
     ],
     
     "pluginsConfig": {
-         "atoc": {
+         "toc": {
             "addClass": true,
-            "className": "atoc"
+            "className": "toc"
         },
         "editlink": {
             "base": "https://www.gitbook.com/book/danster/blog/edit#/edit/master",
@@ -23,6 +23,10 @@
         "github": {
             "url": "https://github.com/danster/blog"
         }
+    },
+    
+    "styles": {
+        "website": "styles/website.css"
     },
 
     "links": {

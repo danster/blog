@@ -1,9 +1,5 @@
 ## 鸟哥的Linux私房菜基础篇_中 -- Daemon、登录档、启动流程与模块管理  
-
-- [第十八章、认识系统服务(daemon) ](#18)
-- [第十九章、认识与分析登录档](#19)
-- [第二十章、启动流程、模块管理与 loader](#20)
-
+<!-- toc -->
 ####<a name=18>[第十八章、认识系统服务(daemons)](http://vbird.dic.ksu.edu.tw/linux_basic/0560daemons.php)</a>
 
 **service 与 daemon 区分**：  
