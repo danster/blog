@@ -2,6 +2,7 @@
 <!--toc-->
 
 ## Python Resource
+- []()
 - [Python多继承](https://segmentfault.com/a/1190000004018476)
 - [linux下python调试 pdb](http://blog.csdn.net/linda1000/article/details/11031771)
 - [Pycharm对linux上python代码进行远程调试](http://blog.csdn.net/eric_sunah/article/details/20538283)
