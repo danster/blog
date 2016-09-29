@@ -1,11 +1,22 @@
 /* CSS for website */
 
 /* ALL */
-book-summary {
-    width:35%;
-}
-
 .book-body {
-    width:65%;
+    max-width: 1400px;
 }
 
+.body-inner{
+    max-width: 1400px;
+}
+
+.page-wrapper{
+    max-width: 1400px;
+}
+
+.page-inner{
+    max-width: 1400px;
+}
+
+.markdown-section{
+    max-width: 1400px;
+}
