@@ -10,7 +10,7 @@
     ],
     
     "pluginsConfig": {
-         "toc": {
+        "toc": {
             "addClass": true,
             "className": "toc"
         },
