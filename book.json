@@ -7,6 +7,7 @@
         "splitter",
         "anchors",
     ],
+    
     "pluginsConfig": {
         "fontsettings": {
             "theme": 'white',
