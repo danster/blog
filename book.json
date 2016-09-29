@@ -23,6 +23,11 @@
         "github": {
             "url": "https://github.com/danster/blog"
         },
+        "fontSettings": {
+            "theme": "sepia", "night" or "white",
+            "family": "serif" or "sans",
+            "size": 1 to 3
+        }
     },
     
     "styles": {
