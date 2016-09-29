@@ -20,7 +20,7 @@
     * [Python Web Development](Language/Python_Web_Development.md)
     * [Python Multiple Processing&Threading](Language/Python_Multi_Thread.md)
     * [Java Knowledge List](Language/Java_Knowledge_List.md)
-* [OpenStack](openstack.md)
+* OpenStack
     * [Open Source List](Technology/OpenSourceList.md)
     * [SDN](Technology/SDN.md)
     * [Install Swift and KeyStone on CentOS 7](Technology/Swift.md)
