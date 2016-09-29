@@ -11,6 +11,11 @@
     ],
     
     "pluginsConfig": {
+        "fontSettings": {
+            "theme": "sepia", "night" or "white",
+            "family": "serif" or "sans",
+            "size": 1 to 3
+        },
          "toc": {
             "addClass": true,
             "className": "toc"
