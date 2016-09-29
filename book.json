@@ -4,14 +4,7 @@
 
     "plugins": [
     ],
-    
-    "pluginsConfig": {
-        "fontsettings": {
-            "theme": 'white',
-            "family": 'sans', 
-            "size": 2
-        }
-    },
+
     
 
     "styles": {
