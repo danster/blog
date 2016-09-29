@@ -24,7 +24,8 @@
             "url": "https://github.com/danster/blog"
         },
         "fontSettings": {
-            "family": "serif",
+            "theme": 'white',
+            "family": "sans",
         }
     },
     
