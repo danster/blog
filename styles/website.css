@@ -1,7 +1,11 @@
 /* CSS for website */
 
 /* ALL */
-.search-noresults {
-  max-width: 1200px;
+book-summary {
+    width:25%;
+}
+
+.book-body {
+    width:75%;
 }
 
