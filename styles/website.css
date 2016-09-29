@@ -20,5 +20,7 @@
 */
 
 .markdown-section{
-    max-width: 1400px;
+    max-width: 2000px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
