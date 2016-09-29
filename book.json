@@ -6,8 +6,6 @@
         "toc",
         "splitter",
         "anchors",
-        "github",
-        "editlink"
     ],
     
     "pluginsConfig": {
@@ -18,21 +16,7 @@
         }
     }，
     
-    "pluginsConfig": {
-         "toc": {
-            "addClass": true,
-            "className": "toc"
-        },
-        "editlink": {
-            "base": "https://www.gitbook.com/book/danster/blog/edit#/edit/master",
-            "label": "EDIT",
-            "multilingual": false
-        },
-        "github": {
-            "url": "https://github.com/danster/blog"
-        }
-    },
-    
+
     "styles": {
         "website": "styles/website.css"
     },
