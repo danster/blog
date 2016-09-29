@@ -1,8 +1,12 @@
 {
     "title": "Danster's Blog",
     "description": "Technology Blog",
-
     "plugins": [
+        "toc",
+        "splitter",
+        "anchors",
+        "github",
+        "editlink"
     ],
 
     
