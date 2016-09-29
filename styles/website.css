@@ -4,3 +4,58 @@
   line-height: 1;
   color: #333;
 }
+
+/* QUOTES */
+blockquote {  
+  border-left: 4px solid #DDD;  
+  padding: 0 15px;  
+  color: #666;
+  font-size: 16px;
+  background-color: #fafafa;
+  font-family: Georgia, Consolas, KaiTi, "Microsoft YaHei";
+}
+
+blockquote>:first-child {  margin-top: 0px;}
+blockquote>:last-child {  margin-bottom: 0px;}
+
+
+/* CODE */
+pre, code, tt {
+  font-size: 16px;
+  font-family: Consolas, Courier, KaiTi;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  line-height: 19px;
+  overflow: auto;
+  height: auto;
+  max-height: 800px;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
