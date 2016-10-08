@@ -1,4 +1,9 @@
 /* CSS for website */
 
-.page-inner{width: 1200px; max-width:100%;}
+.page-inner{
+  width: 90%; 
+  max-width:1200px;
+  margin: 0 auto;
+  padding: 20px 20px 40px 20px;
+}
 
