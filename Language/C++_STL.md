@@ -1,7 +1,8 @@
 # C++ STL 
+
 <!-- toc -->
 
-#### Resources Link
+### Resources Link
 * 三十分钟掌握STL http://net.pku.edu.cn/~yhf/UsingSTL.htm
 * STL 简明教程 http://lotabout.me/orgwiki/stl.html
 * [STL 源码剖析PDF](http://scaukcg-download.stor.sinaapp.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/2/STL%E6%BA%90%E7%A0%81%E5%89%96%E6%9E%90.pdf) 
@@ -9,7 +10,7 @@
 * [内存动态分配函数malloc的基本实现原理](http://blog.csdn.net/ojshilu/article/details/17001165) brk() mmap()
 * [malloc()工作机制](http://blog.csdn.net/llhyy17/article/details/5375298)
 
-#### Category  
+### Category  
 C++ 标准模板库的核心包括以下三个组件：  
 
 - Containers	容器是用来管理某一类对象的集合。C++ 提供了 deque、list、vector、map 等。
@@ -51,7 +52,7 @@ Iterators:  <iterator>,<memory>,<utility>
 **序列式容器Sequence Containers**: Array(built-in), Vector(heap, priority-queue), List, Slist, Deque(stack, queue)   
 **关联式容器Associative Containers**: RB-Tree(set,map,multiset,multimap), Hashtable(hash\_set,hash\_map,hash\_multiset,hash\_multimap)
 
-#### Vector
+### Vector
 > Vector可动态扩展，Array不行。  
 > Vector 的实作技术，关键在于其对大小的控制以及重新配置时的数据搬移效率。  
 > 扩展中会遇到“重新配置，复制数据，释放”的轮回  
@@ -162,10 +163,10 @@ public: // 接口
   const value_type& top();
 }
 ```
-#### List
+### List
 双链表，没有容量观念  
 
-#### Deque
+### Deque
 > deque由一段一段的定量连续空间构成，deque的最大任务就是维护整体连续假象并提供随机存取的接口  
 > deque采用map(一块连续空间)作为主控，其中map上每一个node(指针)都指向另一端较大的连续线性空间，称为缓冲区(default 512 B)  
 > 这些缓冲区才是deque的存储空间主体  
@@ -173,7 +174,7 @@ public: // 接口
 **stack**  不提供遍历功能，也不提供iterator.    
 **queue**   不提供遍历功能，也不提供iterator.   
 
-#### RB-Tree
+### RB-Tree
 红黑树：平衡二叉查找树  
 ```C++
 template <class Key, class Value, class KeyOfValue, class Compare, class Alloc=alloc>
@@ -278,7 +279,7 @@ public: // 接口
 **multiset**  
 **multimap**  
 
-#### Hashtable
+### Hashtable
 散列函数(hash function)带来的碰撞问题：不同元素可能被映射到相同的位置。  
 STL的实现是用开链法解决“碰撞”问题(其他方法有线性探测、二次探测等)。  
 
@@ -333,7 +334,7 @@ private：
 **hash_multiset**  
 **hash_multimap**  
 
-#### Allocator
+### Allocator
 
 SGI STL allocator 未能符合标准规格，这个事实通常不会对我们带来困扰，因为通常我们使用预设的空间配置器，很少需要自行指定配置器名称，而SGI STL 的每个容器都已经指定其预设的空间配置器为alloc。例如下面的vector 宣告：  
 ```C++
@@ -399,7 +400,7 @@ public:
 ```
 其内部四个成员函式其实都是单纯的转呼叫，呼叫传入之配置器（可能是第一级也可能是第二级）的成员函式。这个接口使配置器的配置单位从bytes 转为个别元素的大小（sizeof(T)），SGI STL 容器全都使用这个simple_alloc 接口。
 
-#### malloc(), free()
+### malloc() free()
 
 ```C++
 // 我们的简单分配程序的全局变量
