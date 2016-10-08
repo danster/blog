@@ -16,7 +16,10 @@ IO多路复用是指内核一旦发现进程指定的一个或者多个IO条件�
 也不必维护这些进程/线程，从而大大减小了系统的开销。  
 ```
 
-#### [`select`](https://docs.python.org/2/library/select.html)
+#### select
+
+> https://docs.python.org/2/library/select.html
+
 select的调用过程如下所示： 
 ![](http://images.cnitblog.com/blog/305504/201308/17201205-8ac47f1f1fcd4773bd4edd947c0bb1f4.png)
 ```
@@ -39,7 +42,10 @@ Select的几大缺点：
 - 同时每次调用select都需要在内核遍历传递进来的所有fd，这个开销在fd很多时也很大
 - select支持的文件描述符数量太小了，默认是1024
 
-#### [poll](http://www.cnblogs.com/Anker/archive/2013/08/15/3261006.html) 
+#### poll
+
+> http://www.cnblogs.com/Anker/archive/2013/08/15/3261006.htm
+
 poll的实现和select非常相似，只是描述fd集合的方式不同，poll使用pollfd结构而不是select的fd_set结构，其他的都差不多。  
 
 #### [epoll](http://www.cnblogs.com/Anker/archive/2013/08/17/3263780.html) 
@@ -81,7 +87,7 @@ poll.unregister(fd) # Remove a file descriptor being tracked by a polling object
 poll.poll([timeout]) # Polls the set of registered file descriptors, and returns a possibly-empty list 
                      # containing (fd, event) 2-tuples for the descriptors that have events or errors to report. 
 ```
-####epoll api  
+#### epoll api  
 ```python
 epoll.close() # Close the control file descriptor of the epoll object.
 epoll.fileno() # Return the file descriptor number of the control fd.
@@ -124,7 +130,7 @@ threading.settrace(func) # Set a trace function for all threads started from the
 threading.setprofile(func) # Set a profile function for all threads started from the threading modul
     # The func will be passed to sys.setprofile() for each thread, before its run() method is called.
 ```
-#### **[Thread Object](https://docs.python.org/2/library/threading.html#thread-objects)**  
+#### [Thread Object](https://docs.python.org/2/library/threading.html#thread-objects) 
 - A new class inherit Thread, only need override the __init__() and run() methods 
 - Once a thread object is created, its activity must be started by calling the thread’s start() method. This invokes the run() method in a separate thread of control.
 - Once the thread’s activity is started, the thread is considered ‘alive’. It stops being alive when its run() method terminates – either normally, or by raising an unhandled exception. The is_alive() method tests whether the thread is alive.
@@ -149,18 +155,18 @@ isAlive()
 daemon # A boolean value indicating whether this thread is a daemon thread (True) or not (False)
 isDaemon()
 ```
-#### **[Lock](https://docs.python.org/2/library/threading.html#lock-objects)**  
+#### [Lock](https://docs.python.org/2/library/threading.html#lock-objects) 
 - A primitive lock is in one of two states, “locked” or “unlocked”. It is created in the unlocked state. 
 - It has two basic methods, acquire(blocking=1) and release(). 
 - When more than one thread is blocked in acquire() waiting for the state to turn to unlocked, only one thread proceeds when a release() call resets the state to unlocked; which one of the waiting threads proceeds is not defined, and may vary across implementations.
 
-#### **[RLock](https://docs.python.org/2/library/threading.html#rlock-objects)**  
+#### [RLock](https://docs.python.org/2/library/threading.html#rlock-objects)  
 - A reentrant lock is a synchronization primitive that may be acquired multiple times by the same thread. 
 - In the locked state, some one thread owns the lock; in the unlocked state, no thread owns it.
 - acquire(blocking=1)/release() call pairs may be nested;
 - only the final release() resets the lock to unlocked and allows another thread blocked in acquire() to proceed.
 
-#### **[Condition](https://docs.python.org/2/library/threading.html#condition-objects)**  
+#### [Condition](https://docs.python.org/2/library/threading.html#condition-objects)  
 - A condition variable is always associated with some kind of lock
 - acquire(\*args)/release() call the associated lock
 - wait([timeout])/notify(n=1)/notifyAll() must only be called when the calling thread has acquired the lock, otherwise a RuntimeError is raised.
