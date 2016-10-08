@@ -16,7 +16,7 @@
         },
         "editlink": {
             "base": "https://www.gitbook.com/book/danster/blog/edit#/edit/master",
-            "label": "EDIT",
+            "label": "",
             "multilingual": false
         },
         "github": {
