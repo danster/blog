@@ -1,22 +1,8 @@
 /* CSS for website */
 
-
-.book-body {
-    max-width: 1600px;
-}
-
-.body-inner{
-    max-width: 1600px;
-}
-
-.page-wrapper{
-    max-width: 1600px;
-}
-
-.page-inner{
-    max-width: 1600px;
-}
-
 .markdown-section{
-    max-width: 1600px;
+  min-width: 200px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
 }
