@@ -30,3 +30,6 @@
 .markdown-section h5{font-size:1.1em;}
 .markdown-section h6{font-size:1em; color:#777;}
 
+/* hide the link to book*/
+ul.summary li:first-child { display: none;}
+
