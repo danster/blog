@@ -1,6 +1,8 @@
-## 鸟哥的Linux私房菜基础篇_中 -- Daemon、登录档、启动流程与模块管理  
+# 鸟哥的Linux私房菜基础篇_中 -- Daemon、登录档、启动流程与模块管理 
+
 <!-- toc -->
-####<a name=18>[第十八章、认识系统服务(daemons)](http://vbird.dic.ksu.edu.tw/linux_basic/0560daemons.php)</a>
+
+## 第十八章、认识系统服务(daemons)
 
 **service 与 daemon 区分**：  
 service是系统为了某些功能提供的一些服务，daemon就是实现service在背景中运行的程序, daemon命名后面常带d。平时可以将这两者视为相同,因为达成某个service是需要一支daemon在背景中运行， 没有这支daemon就不会有service。
@@ -17,7 +19,7 @@ service是系统为了某些功能提供的一些服务，daemon就是实现serv
 
 `cat /etc/services` 查看 daemon 与 port number 以及网络协议的对应关系
 
-**daemon 的某些重要的配置文件**：
+### daemon 的某些重要的配置文件
 
 - /etc/init.d/* ：启动脚本放置处
 - /etc/sysconfig/* ：各服务的初始化环境配置文件
@@ -57,7 +59,7 @@ KNOWN：代表为可解析的 IP, domain 等等信息时；
 找出目前系统开启的网络服务有哪些  [root@www ~]# netstat -tulp  
 观察所有的服务状态  [root@www ~]# service --status-all
 
-**Linux 主机是怎么启动的呢 ？**
+### Linux 主机是怎么启动的？
 
 ```
 1 打开计算机电源，开始读取 BIOS 并进行主机的自我测试；
@@ -89,7 +91,7 @@ KNOWN：代表为可解析的 IP, domain 等等信息时；
 --level：配置某个服务在该 level 下启动 (on) 或关闭 (off)
 ``` 
 
-Linux 默认启动的常用服务
+### Linux 默认启动的常用服务
 
 |Service Name | Info|
 |-------------|-----|
@@ -111,7 +113,7 @@ Linux 其它非默认启动的常用服务
 |ntpd|(网络)服务的全名是 Network Time Protocol ，这个服务可以用来进行网络校时， 让你系统的时间永远都是正确的哩！|
 |vsftpd|(网络)作为文件传输服务器 (FTP) 的服务|
 
-####<a name=19> [第十九章、认识与分析登录文件](http://vbird.dic.ksu.edu.tw/linux_basic/0570syslog.php)</a>
+## 第十九章、认识与分析登录文件
 
 登录文件的重要性：
   
@@ -119,7 +121,7 @@ Linux 其它非默认启动的常用服务
 - 解决网络服务的问题  
 - 过往事件记录簿  
 
-Linux 常见的登录文件档名：
+### Linux 常见的登录文件档名
 
 | Name | Info |
 | ---- | ---- |
@@ -128,9 +130,9 @@ Linux 常见的登录文件档名：
 |/var/log/lastlog|可以记录系统上面所有的帐号最近一次登陆系统时的相关资讯。第十四章的 lastlog 命令就是利用这个文件的记录资讯来显示的|
 |/var/log/messages|这个文件相当的重要，几乎系统发生的错误信息 (或者是重要的资讯) 都会记录在这个文件中； 如果系统发生莫名的错误时，这个文件是一定要查阅的登录文件之一|
 |/var/log/secure|基本上，只要牵涉到『需要输入帐号口令』的软件，那么当登陆时 (不管登陆正确或错误) 都会被记录在此文件中。 包括系统的 login 程序、图形介面登陆所使用的 gdm 程序、 su, sudo 等程序、还有网络连线的 ssh, telnet 等程序， 登陆资讯都会被记载在这里|
-|/var/log/maillog, /var/log/mail/* | 记录邮件的往来资讯，其实主要是记录 sendmail (SMTP 协议提供者) 与 dovecot (POP3 协议提供者) 所产生的信息啦。 SMTP 是发信所使用的通讯协议， POP3 则是收信使用的通讯协议。 sendmail 与 dovecot 则分别是两套达成通讯协议的软件|
+|/var/log/maillog, /var/log/mail/\* | 记录邮件的往来资讯，其实主要是记录 sendmail (SMTP 协议提供者) 与 dovecot (POP3 协议提供者) 所产生的信息啦。 SMTP 是发信所使用的通讯协议， POP3 则是收信使用的通讯协议。 sendmail 与 dovecot 则分别是两套达成通讯协议的软件|
 |/var/log/wtmp, /var/log/faillog| 这两个文件可以记录正确登陆系统者的帐号资讯 (wtmp) 与错误登陆时所使用的帐号资讯 (faillog) , 第十一章的 last 命令就是读取 wtmp 来显示的， 这对於追踪一般帐号者的使用行为很有帮助|
-|/var/log/httpd/\*, /var/log/news/\*, /var/log/samba/*| 不同的网络服务会使用它们自己的登录文件来记载它们自己产生的各项信息！上述的目录内则是个别服务所制订的登录文件|
+|/var/log/httpd/\*, /var/log/news/\*, /var/log/samba/\*| 不同的网络服务会使用它们自己的登录文件来记载它们自己产生的各项信息！上述的目录内则是个别服务所制订的登录文件|
 
 针对登录文件所需的功能，我们需要的服务与程序有： 
 
@@ -177,7 +179,7 @@ udp        0      0 0.0.0.0:514    0.0.0.0:*               13981/syslogd
 [root@www ~]# vim /etc/syslog.conf
 *.*       @192.168.1.100
 ```
-**logrotate**
+### logrotate
 
 >logrotate 主要是针对登录文件来进行轮替的动作，他必须要记载『 在什么状态下才将登录文件进行轮替』的配置, 参数配置档是：/etc/logrotate.conf, /etc/logrotate.d/*
 
@@ -293,9 +295,8 @@ compressing log with: /bin/gzip
 ------------- /var/log/admin.log.1.gz  <==有压缩过喔！
 ```
 
-####<a name=20> [第二十章、启动流程、模块管理与 Loader](http://vbird.dic.ksu.edu.tw/linux_basic/0510osloader.php)</a>
-
-##### 1. [Linux 的启动流程分析](http://vbird.dic.ksu.edu.tw/linux_basic/0510osloader.php#startup)
+## 第二十章、启动流程、模块管理与 Loader
+### 1. [Linux 的启动流程分析](http://vbird.dic.ksu.edu.tw/linux_basic/0510osloader.php#startup)
 
 系统启动的经过可以汇整成底下的流程的：
 
@@ -445,7 +446,7 @@ Starting anacron:                           [  OK  ]
 [root@www ~]# init 6 # 重新启动
 ```
 
-##### 2. [核心与核心模块](http://vbird.dic.ksu.edu.tw/linux_basic/0510osloader.php#kernel)
+### 2. [核心与核心模块](http://vbird.dic.ksu.edu.tw/linux_basic/0510osloader.php#kernel)
 
 核心一般都是压缩档，因此在使用核心之前，就得要将他解压缩后， 才能加载主内存当中, 目前的核心都是具有模块化功能.
 
@@ -524,7 +525,7 @@ options eth0 io=0x300 irq=5
 options eth1 io=0x320 irq=7
 ```
 
-##### 3. [Boot loader: Grub](http://vbird.dic.ksu.edu.tw/linux_basic/0510osloader.php#grub)
+### 3. [Boot loader: Grub](http://vbird.dic.ksu.edu.tw/linux_basic/0510osloader.php#grub)
 
 Linux 将 boot loader 的程序码运行与配置值加载分成两个阶段 (stage) 来运行：
 
@@ -584,7 +585,7 @@ initrd 可以将 /lib/modules/.... 内的『启动过程当中一定需要的模
 
 **[为个别菜单加上口令:  grub-md5-crypt](http://vbird.dic.ksu.edu.tw/linux_basic/0510osloader.php#grub_password)**
 
-##### 4. [启动过程的问题解决](http://vbird.dic.ksu.edu.tw/linux_basic/0510osloader.php#solution)  
+### 4. [启动过程的问题解决](http://vbird.dic.ksu.edu.tw/linux_basic/0510osloader.php#solution)  
 **[忘记 root 口令的解决之道](http://vbird.dic.ksu.edu.tw/linux_basic/0510osloader.php#solution_root)**  
 **[init 配置档错误](http://vbird.dic.ksu.edu.tw/linux_basic/0510osloader.php#solution_init)**  
 **[BIOS 磁碟对应的问题 (device.map)](http://vbird.dic.ksu.edu.tw/linux_basic/0510osloader.php#solution_hd)**  
