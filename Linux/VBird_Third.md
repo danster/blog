@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-### [第二十二章、软件安装：原始码与 Tarball](http://vbird.dic.ksu.edu.tw/linux_basic/0520source_code_and_tarball.php)
+### 第二十二章、软件安装：原始码与 Tarball
 
 Linux 系统上真正认识的可运行档其实是二进位文件 (binary program)，例如 /usr/bin/passwd, /bin/touch
 
@@ -191,7 +191,7 @@ Linux distribution 默认的安装软件的路径(以rpm安装apache为例)：
 
 当然可以啦！那就是 **patch** 这个命令啦！很多的软件开发商在升级了原始码之后，几乎都会释出所谓的 patch file，也就是直接将原始码 update 而已的一个方式喔！
 
-#### 函式库管理
+### 函式库管理
 
 **静态函式库(libxxx.a)**的特色：
 
@@ -269,16 +269,13 @@ include ld.so.conf.d/*.conf
                 ld-linux.so.2 (GLIBC_2.1) => /lib/ld-linux.so.2
 ```
 
-检验软件正确性
-
-```
+检验软件正确性  
+```shell
 md5sum/sha1sum filename # 以 md5sum 与 sha1sum 去检验文件，回传指纹码
 ```
 
-###<a name=23>[第二十三章、软件安装：RPM，SRPM 与 YUM 功能](http://vbird.dic.ksu.edu.tw/linux_basic/0520rpm_and_srpm.php)</a>
-
-Linux Distribution : 
-
+### 第二十三章、软件安装：RPM，SRPM 与 YUM 功能
+Linux Distribution:  
 1. Linux 开发商先在固定的硬件平台与操作系统平台上面将需要安装或升级的软件编译好， 然后将这个软件的所有相关文件打包成为一个特殊格式的文件，在这个软件文件内还包含了**预先侦测系统与相依软件的脚本**，并提供记载该软件提供的所有文件资讯等。最终将这个软件文件释出.
 2. 用户端取得这个文件后，只要透过特定的命令来安装， 那么该软件文件就会**依照内部的脚本来侦测相依的前驱软件是否存在**，若安装的环境符合需求，那就会**开始安装**，安装完成后还会**将该软件的资讯写入软件管理机制**中，以达成未来可以进行升级、移除等动作
 
@@ -411,7 +408,7 @@ extras          CentOS-5 - Extras          enabled
 updates         CentOS-5 - Updates         enabled
 ```
 
-### [第二十五章、Linux 备份策略](http://vbird.dic.ksu.edu.tw/linux_basic/0580backup.php)
+### 第二十五章、Linux 备份策略
 
 **哪些 Linux 数据具有备份的意义**
 
@@ -501,7 +498,7 @@ MySQL ： /var/lib/mysql 整个目录
 异地备援：每月定期的将数据分别 (a)烧录到光盘上面 (b)使用网络传输到另一部机器上面。
 ```
 
-###<a name=26>[第二十六章、核心编译](http://vbird.dic.ksu.edu.tw/linux_basic/0540kernel.php)</a>
+### 第二十六章、核心编译
 
 核心是什么？ 核心文件是什么？
 > **核心**就是系统上面的一个文件而已, 是透过原始码编译而成的, 它包含了驱动主机各项硬件的侦测程序与驱动模块 
