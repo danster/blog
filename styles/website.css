@@ -23,7 +23,7 @@
   font-weight:bold;
 }
 
-.markdown-section h1{font-size:1.7em; margin-top:0em; padding-bottom:.3em; border-bottom: 1.5px solid #ccc;}
+.markdown-section h1{font-size:1.7em; margin-top:0; padding-bottom:.3em; border-bottom: 1.5px solid #ccc;}
 .markdown-section h2{font-size:1.5em; padding-bottom:.2em; border-bottom: 1px solid #ccc;}
 .markdown-section h3{font-size:1.4em;}
 .markdown-section h4{font-size:1.2em;}
