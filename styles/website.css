@@ -1,8 +1,7 @@
 /* CSS for website */
 
 .markdown-section{
-  min-width: 200px;
-  max-width: 2000px;
+  width: 90%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0;
 }
