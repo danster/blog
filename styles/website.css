@@ -10,7 +10,7 @@
 .book-header h1{display: none;}
 
 .markdown-section{ line-height:1.5;}
-.markdown-section hr{ border: 1px solid #ccc;}
+.markdown-section hr{ border: 1px solid #ccc; margin:0.5em 0;}
 
 .markdown-section h1,
 .markdown-section h2,
