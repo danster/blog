@@ -29,12 +29,6 @@
         }
     },
 
-    
-
-    "styles": {
-        "website": "styles/website.css"
-    },
-
     "links": {
         "sharing": {
             "google": false,
