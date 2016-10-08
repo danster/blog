@@ -23,8 +23,8 @@
   font-weight:bold;
 }
 
-.markdown-section h1{font-size:1.7em; margin-top:0em; margin-bottom:.8em; border-bottom: 1.5px solid #555;}
-.markdown-section h2{font-size:1.5em; margin-bottom:.65em; border-bottom: 1px solid #666;}
+.markdown-section h1{font-size:1.7em; margin-top:0em; margin-bottom:.8em; border-bottom: 1.5px solid #888;}
+.markdown-section h2{font-size:1.5em; margin-bottom:.65em; border-bottom: 1px solid #999;}
 .markdown-section h3{font-size:1.4em;}
 .markdown-section h4{font-size:1.2em;}
 .markdown-section h5{font-size:1.1em;}
