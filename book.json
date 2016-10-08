@@ -28,6 +28,10 @@
             "size": 3
         }
     },
+    
+    "styles": {
+        "website": "styles/website.css"
+    },
 
     "links": {
         "sharing": {
