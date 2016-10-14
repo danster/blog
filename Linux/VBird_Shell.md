@@ -1,5 +1,7 @@
 # 鸟哥的Linux私房菜基础篇 -- Bash & Shell
+
 <!-- toc -->
+
 ## 第十一章、认识与学习 BASH
 ### 认识 BASH 这个 Shell
 硬件、核心与用户的相关性图示  
