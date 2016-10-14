@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-## 第十一章、认识与学习 BASH
+## 第十一章 认识与学习 BASH
 ### 认识 BASH 这个 Shell
 硬件、核心与用户的相关性图示  
 ![](/images/bash_kernel.jpg)
@@ -62,7 +62,7 @@ export命令可以分享自己的变量配置给后来呼叫的文件或其他�
 locale -a : Write names of available locales  
 基本上，你可以逐一配置每个与语系有关的变量数据，但事实上，如果其他的语系变量都未配置， 且你有配置 LANG 或者是 LC_ALL 时，则其他的语系变量就会被这两个变量所取代！
 
-### 变量键盘读取、数组与宣告： read, array, declare
+### 变量键盘读取,数组与宣告: read array declare
 
 ```bash
 [root@www ~]# read [-pt] variable
@@ -93,7 +93,7 @@ locale -a : Write names of available locales
 [leo@centOS ~]$ echo ${var[1]},${var[2]},${var[3]} --- person1,person2,person3
 ```
 
-### 与文件系统及程序的限制关系： ulimit
+### 与文件系统及程序的限制关系: ulimit
 
 想象一个状况：我的 Linux 主机里面同时登陆了十个人，同时开启了 100 个文件，每个文件的大小约 10MBytes ，请问一下， 我的 Linux 主机的内存要有多大才够？ 10*100*10 = 10000 MBytes = 10GBytes ...老天爷，这样，系统不挂点才有鬼哩！  
 为了要预防这个情况的发生，所以我们的 bash 是可以『限制用户的某些系统资源』的，包括可以开启的文件数量， 可以使用的 CPU 时间，可以使用的内存总量等等。如何配置？用 ulimit 吧！
@@ -160,7 +160,7 @@ virtual memory          (kbytes, -v) unlimited
 file locks                      (-x) unlimited
 ```
 
-### 变量内容的删除、取代与替换
+### 变量内容的删除,取代与替换
 
 |变量配置方式|	说明|
 |------------|------|
@@ -280,7 +280,7 @@ set output-meta on
 ...
 ```
 
-## 第十三章、学习 Shell Scripts
+## 第十三章 学习 Shell Scripts
 
 ### 什么是 Shell Script
 
@@ -351,12 +351,12 @@ set output-meta on
 		-o	(or)两状况任何一个成立！例如 test -r file -o -x file，则 file 具有 r 或 x 权限时，就可回传 true。
 		!	反相状态，如 test ! -x file ，当 file 不具有 x 时，回传 true
 
-####利用判断符号 [ ]
+#### 利用判断符号 [ ]
 - 在中括号 [] 内的每个组件都需要有空白键来分隔；
 - 在中括号内的变量，最好都以双引号括号起来；
 - 在中括号内的常数，最好都以单或双引号括号起来
 
-####Shell script 的默认变量($0, $1...)： shift
+#### Shell script 的默认变量($0, $1...): shift
 
 ```bash
 [root@www ~]# name="VBird Tsai"
