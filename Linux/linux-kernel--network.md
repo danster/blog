@@ -6,7 +6,7 @@
 
 TCP/IP 协议栈
 
-![](/assets/1.pic_hd.jpg width="700" )
+![](/assets/1.pic_hd.jpg 700* )
 
 
 
