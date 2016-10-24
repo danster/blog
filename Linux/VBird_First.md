@@ -295,12 +295,13 @@ newgrp: 有效群组的切换, 启用新shell登录环境，用户的环境配�
 
 root 口令忘记了：这就麻烦了！因为你无法使用 root 的身份登陆了嘛！ 但我们知道 root 的口令在 /etc/shadow 当中，因此你可以使用各种可行的方法启动进入 Linux 再去修改。 例如重新启动进入单人维护模式(第二十章)后，系统会主动的给予 root 权限的 bash 接口， 此时再以 passwd 修改口令即可；或以 Live CD 启动后挂载根目录去修改 /etc/shadow，将里面的 root 的口令字段清空， 再重新启动后 root 将不用口令即可登陆！登陆后再赶快以 passwd 命令去配置 root 口令即可
 
-**[账号管理](http://vbird.dic.ksu.edu.tw/linux_basic/0410accountmanager_2.php)**  
-　　1 新增与移除使用者： useradd, useradd 参考档, passwd, chage, usermod, userdel  
-　　2 用户功能：finger, chfn, chsh, id  
-　　3 新增与移除群组：groupadd, groupmod, groupdel, gpasswd 群组管理员
+**账号管理**  
 
-**su** 身份切换命令,总结用法的：
+1. 新增与移除使用者： useradd, useradd 参考档, passwd, chage, usermod, userdel  
+2. 用户功能：finger, chfn, chsh, id  
+3. 新增与移除群组：groupadd, groupmod, groupdel, gpasswd 群组管理员
+
+**su** 身份切换命令,总结用法：
 
 - 若要完整的切换到新使用者的环境，必须要使用『 su - username 』或『 su -l username 』，才会连同 PATH/USER/MAIL 等变量都转成新用户的环境；
 - 如果仅想要运行一次 root 的命令，可以利用『 su - -c "命令串" 』的方式来处理；
