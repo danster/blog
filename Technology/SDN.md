@@ -19,9 +19,9 @@
 * SDN软件定义网络从入门到精通 导论课-在线课程：[http:\/\/edu.51cto.com\/course\/course\_id-4466.html](http://edu.51cto.com/course/course_id-4466.html) \(danster@**.com\/maof\***1_\*_\)
 * SDN软件定义网络从入门到精通 导论课-PPT：[http:\/\/mp.weixin.qq.com\/s?\_\_biz=MjM5MTM3MzIzMg==∣=209513316&idx=1&sn=e5dbd9a2ccccb88d0ee5c4d5790699c1\#rd](http://mp.weixin.qq.com/s?__biz=MjM5MTM3MzIzMg==&mid=209513316&idx=1&sn=e5dbd9a2ccccb88d0ee5c4d5790699c1#rd)
 
-### NFV
+### SDN and NFV
 
-* NFV——由服务供应商创建
+* NFV: 由服务供应商创建
 * [ONF](https://www.opennetworking.org/index.php)由Google, Facebook, Alibaba等公司组建
 
 ### [ODL](https://www.opennetworking.org/index.php): OpenDayLight
