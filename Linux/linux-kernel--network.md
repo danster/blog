@@ -61,11 +61,11 @@ CSDN Blog 专栏：[TCP\/IP 详解（协议篇）](http://blog.csdn.net/column/d
 
 ### Reference
 
-* **漫画：深入 Linux 内核**
+**漫画：深入 Linux 内核**
 
 ![](/assets/7cc829d3gw1f92ipqgjjxj21kw1lbdxf.jpg)
 
 **TCP\/IP 协议栈**
-![](/assets/1.pic_hd.jpg)
+
 <img href="/assets/1.pic_hd.jpg" width=500/>
 
