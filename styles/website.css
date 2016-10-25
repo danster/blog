@@ -34,7 +34,7 @@
 .summary>li:first-child { display: none;}
 #book-search-input{ margin-bottom:-3px;}
 
-.markdown-section img {
+.markdown-section img:not([width]),img:not([max-width]) {
     max-width: 600px;
 }
 
