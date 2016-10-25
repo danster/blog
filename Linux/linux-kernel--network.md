@@ -1,6 +1,6 @@
 # Linux Kernel 基础知识
 
-**[CSDN Page Set：Linux 内核剖析](http://blog.csdn.net/gatieme/article/category/6190201)**
+[**CSDN Page Set：Linux 内核剖析**](http://blog.csdn.net/gatieme/article/category/6190201)
 
 * [Linux系统启动过程详解---linux内核剖析（零）](http://blog.csdn.net/gatieme/article/details/50914250)
 
@@ -43,7 +43,6 @@
 * [线程的3种实现方式--内核级线程, 用户级线程和混合型线程](http://blog.csdn.net/gatieme/article/details/51892437)
 
 
-
 CSDN Blog 专栏：[Linux 内核设计与实现 -- Based on Linux 2.6](http://blog.csdn.net/column/details/linuxkernel.html)
 
 CSDN Blog 专栏：[Linux Shell 脚本攻略](http://blog.csdn.net/column/details/linuxshell.html)
@@ -52,7 +51,7 @@ CSDN Blog 专栏：[TCP\/IP 详解（协议篇）](http://blog.csdn.net/column/d
 
 ### Linux Kernel - 进程管理
 
-**[CSDN Page Set：Linux进程的管理与调度](http://blog.csdn.net/gatieme/article/category/6225543)**
+[**CSDN Page Set：Linux进程的管理与调度**](http://blog.csdn.net/gatieme/article/category/6225543)
 
 1. [Linux进程描述符task\_struct结构体详解](http://blog.csdn.net/gatieme/article/details/51383272)
 
@@ -66,6 +65,7 @@ CSDN Blog 专栏：[TCP\/IP 详解（协议篇）](http://blog.csdn.net/column/d
 
 ![](/assets/7cc829d3gw1f92ipqgjjxj21kw1lbdxf.jpg)
 
-* **TCP\/IP 协议栈    **
-  ![](/assets/1.pic_hd.jpg)
+**TCP\/IP 协议栈**
+![](/assets/1.pic_hd.jpg)
+<img href="/assets/1.pic_hd.jpg" width=500/>
 
