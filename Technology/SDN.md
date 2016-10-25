@@ -21,7 +21,7 @@
 
 ### NFV
 
-* 
+* NFV——由服务供应商创建
 * [ONF](https://www.opennetworking.org/index.php)由Google, Facebook, Alibaba等公司组建
 
 ### [ODL](https://www.opennetworking.org/index.php): OpenDayLight
