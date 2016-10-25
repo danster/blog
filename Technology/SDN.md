@@ -1,4 +1,7 @@
-# SDN: Software Defined Network
+# SDN and NFV
+- SDN: Software Defined Network
+- NFV: 
+
 ### SDN 网络结构：应用层，控制层，转发层
 <img src="/images/SDN.png" width="700"/>
 > Note: 区别于TCP/IP的4层网络结构
