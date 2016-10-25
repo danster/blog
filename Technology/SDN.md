@@ -28,4 +28,4 @@
 - ODL由Cisco牵头组件
 - **OpenDayLight**是一套社区主导的开源框架，旨在推动创新实施以及SDN透明化。面对SDN型网络，大家需要合适的工具帮助自己管理基础设施，这正是OpenDaylight的专长。作为项目核心，OpenDaylight拥有一套模块化、可插拔且极为灵活的控制器，这使其能够被部署在任何支持Java的平台之上。这款控制器中还包含一套模块合集，能够执行需要快速完成的网络任务。
 
-<img src="http://static.oschina.net/uploads/img/201307/04112348_kBom.jpg" width="700"/>
+![](http://static.oschina.net/uploads/img/201307/04112348_kBom.jpg)
