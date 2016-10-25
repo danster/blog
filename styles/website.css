@@ -35,6 +35,6 @@
 #book-search-input{ margin-bottom:-3px;}
 
 .markdown-section img {
-    width: 600px;
+    max-width: 600px;
 }
 
