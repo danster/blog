@@ -1,6 +1,7 @@
 # SDN and NFV
+
 - SDN: Software Defined Network
-- NFV: 
+- NFV: Network Function Virtualization 
 
 ### SDN 网络结构：应用层，控制层，转发层
 <img src="/images/SDN.png" width="700"/>
