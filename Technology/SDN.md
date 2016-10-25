@@ -4,7 +4,6 @@
 * NFV: Network Function Virtualization 
 * ONF: Open Networking Foundation
 
-
 ### SDN 网络结构：应用层，控制层，转发层
 
 ![](/images/SDN.png)  
@@ -17,16 +16,12 @@
 * OpenFlow技术细节: [OpenFlow 1.3核心概念翻译与理解](http://www.anwcl.com/wordpress/openflow1-3%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5%E7%BF%BB%E8%AF%91%E4%B8%8E%E7%90%86%E8%A7%A3/)
 * SDN/OpenFlow相关的开源软件:http://www.oschina.net/project/tag/452/sdn 
 * OpenFlow Wikipedia: https://en.wikipedia.org/wiki/OpenFlow
-
-
-### 《SDN软件定义网络从入门到精通》导论课
-
-* 在线课程：[http:\/\/edu.51cto.com\/course\/course\_id-4466.html](http://edu.51cto.com/course/course_id-4466.html) \(danster@**.com\/maof\***1_\*_\)
-* PPT：[http:\/\/mp.weixin.qq.com\/s?\_\_biz=MjM5MTM3MzIzMg==∣=209513316&idx=1&sn=e5dbd9a2ccccb88d0ee5c4d5790699c1\#rd](http://mp.weixin.qq.com/s?__biz=MjM5MTM3MzIzMg==&mid=209513316&idx=1&sn=e5dbd9a2ccccb88d0ee5c4d5790699c1#rd)
+* SDN软件定义网络从入门到精通 导论课-在线课程：[http:\/\/edu.51cto.com\/course\/course\_id-4466.html](http://edu.51cto.com/course/course_id-4466.html) \(danster@**.com\/maof\***1_\*_\)
+* SDN软件定义网络从入门到精通 导论课-PPT：[http:\/\/mp.weixin.qq.com\/s?\_\_biz=MjM5MTM3MzIzMg==∣=209513316&idx=1&sn=e5dbd9a2ccccb88d0ee5c4d5790699c1\#rd](http://mp.weixin.qq.com/s?__biz=MjM5MTM3MzIzMg==&mid=209513316&idx=1&sn=e5dbd9a2ccccb88d0ee5c4d5790699c1#rd)
 
 ### [ONF](https://www.opennetworking.org/index.php): Open Networking Foundation
 
-* ONF由Google, Facebook, Alibaba等公司组件
+* ONF由Google, Facebook, Alibaba等公司组建
 
 ### [ODL](https://www.opennetworking.org/index.php): OpenDayLight
 
