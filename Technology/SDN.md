@@ -15,9 +15,8 @@
 * OpenFlow是一种协议,一个标准,也即SDN的具体实践.做法很简单,将所有的报文抽出关键字段,抽象为流\(flow\),而所有流都交给Controller控制
 * OpenFlow技术细节: [OpenFlow 1.3核心概念翻译与理解](http://www.anwcl.com/wordpress/openflow1-3%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5%E7%BF%BB%E8%AF%91%E4%B8%8E%E7%90%86%E8%A7%A3/)
 
-* SDN\/OpenFlow相关的开源软件: [http:\/\/www.oschina.net\/project\/tag\/452\/sdn](http://www.oschina.net/project/tag/452/sdn)
-
-* OpenFlow Wikipedia: [https:\/\/en.wikipedia.org\/wiki\/OpenFlow](https://en.wikipedia.org/wiki/OpenFlow)
+* SDN/OpenFlow相关的开源软件:http://www.oschina.net/project/tag/452/sdn 
+* OpenFlow Wikipedia: https://en.wikipedia.org/wiki/OpenFlow
 
 
 ### 《SDN软件定义网络从入门到精通》导论课

@@ -22,7 +22,7 @@
     * [Java Knowledge List](Language/Java_Knowledge_List.md)
 * [OpenStack](Chapter_Openstack.md)
     * [Open Source List](Technology/OpenSourceList.md)
-    * [SDN](Technology/SDN.md)
+    * [SDN and NFV](Technology/SDN.md)
     * [Install Swift and KeyStone on CentOS 7](Technology/Swift.md)
     * [OVS 流表](Technology/OVS_Openflow.md)
 * [Misc](Chapter_Misc.md)
