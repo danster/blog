@@ -1,6 +1,6 @@
 # Linux Kernel 基础知识
 
-[**CSDN Page Set：Linux 内核剖析**](http://blog.csdn.net/gatieme/article/category/6190201)
+**[CSDN Page Set：Linux 内核剖析](http://blog.csdn.net/gatieme/article/category/6190201)**
 
 * [Linux系统启动过程详解---linux内核剖析（零）](http://blog.csdn.net/gatieme/article/details/50914250)
 
@@ -8,11 +8,19 @@
 
 * [Linux内核绪论----Linux内核剖析（二）](http://blog.csdn.net/gatieme/article/details/44958879)
 
-* [构建源码树----Linux内核剖析（三）](http://blog.csdn.net/gatieme/article/details/44961475)
+* [**构建源码树----Linux内核剖析（三）**](http://blog.csdn.net/gatieme/article/details/44961475)
 
 * [为arm内核构建源码树----Linux内核剖析（四）](http://blog.csdn.net/gatieme/article/details/48846997)
 
 * [Linux内核的构建过程----Linux内核剖析（五）](http://blog.csdn.net/gatieme/article/details/48918399)
+
+
+* [Linux系统调用详解（实现机制分析）--linux内核剖析（六）](http://blog.csdn.net/gatieme/article/details/50779184) 
+
+* [Linux进程间通信的几种方式总结--linux内核剖析（七）](http://blog.csdn.net/gatieme/article/details/50908749) 
+
+
+* [进程间通信之-管道--linux内核剖析（八）](http://blog.csdn.net/gatieme/article/details/50909399) 
 
 * [进程间通信之-信号signal--linux内核剖析（九）](http://blog.csdn.net/gatieme/article/details/50990456)
 
@@ -51,7 +59,7 @@ CSDN Blog 专栏：[TCP\/IP 详解（协议篇）](http://blog.csdn.net/column/d
 
 ### Linux Kernel - 进程管理
 
-[**CSDN Page Set：Linux进程的管理与调度**](http://blog.csdn.net/gatieme/article/category/6225543)
+**[CSDN Page Set：Linux进程的管理与调度](http://blog.csdn.net/gatieme/article/category/6225543)**
 
 1. [Linux进程描述符task\_struct结构体详解](http://blog.csdn.net/gatieme/article/details/51383272)
 
