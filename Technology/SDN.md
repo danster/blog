@@ -23,7 +23,6 @@
 ### SDN and NFV
 
 * NFV: 由服务供应商创建
-* 
 
 ### [ODL](https://www.opennetworking.org/index.php): OpenDayLight
 
