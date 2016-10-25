@@ -2,12 +2,14 @@
 
 * SDN: Software Defined Network
 * NFV: Network Function Virtualization 
+* ONF: Open Networking Foundation
+
 
 ### SDN 网络结构：应用层，控制层，转发层
 
 ![](/images/SDN.png)
 
-> Note: 区别于TCP\/IP的4层网络结构
+> Note: 区别于TCP/IP的4层网络结构
 
 * SDN是一种新型网络创新架构, 是网络虚拟化的一种实现方式, 其核心技术OpenFlow通过将网络设备控制面与数据面分离开来, 从而实现了网络流量的灵活控制, 使网络作为管道变得更加智能.
 * SDN是一个框架、一种概念，结合NFV\(网络功能虚拟化\),实现了所有网络架构的大一统,是互联网的颠覆性架构
