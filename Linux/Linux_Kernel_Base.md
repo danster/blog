@@ -67,5 +67,5 @@ CSDN Blog 专栏：[TCP\/IP 详解（协议篇）](http://blog.csdn.net/column/d
 
 **TCP\/IP 协议栈**
 
-<img src="/assets/1.pic_hd.jpg" width=500 />
+![](/assets/1.pic_hd.jpg)
 
