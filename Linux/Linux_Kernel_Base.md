@@ -1,6 +1,6 @@
 # Linux Kernel 基础知识
 
-[**CSDN Page Set：Linux 内核剖析**](http://blog.csdn.net/gatieme/article/category/6190201)
+**[CSDN Page Set：Linux 内核剖析](http://blog.csdn.net/gatieme/article/category/6190201)**
 
 * [Linux系统启动过程详解---linux内核剖析（零）](http://blog.csdn.net/gatieme/article/details/50914250)
 
@@ -51,7 +51,7 @@ CSDN Blog 专栏：[TCP\/IP 详解（协议篇）](http://blog.csdn.net/column/d
 
 ### Linux Kernel - 进程管理
 
-[**CSDN Page Set：Linux进程的管理与调度**](http://blog.csdn.net/gatieme/article/category/6225543)
+**[CSDN Page Set：Linux进程的管理与调度](http://blog.csdn.net/gatieme/article/category/6225543)**
 
 1. [Linux进程描述符task\_struct结构体详解](http://blog.csdn.net/gatieme/article/details/51383272)
 
@@ -62,11 +62,19 @@ CSDN Blog 专栏：[TCP\/IP 详解（协议篇）](http://blog.csdn.net/column/d
 ### Reference
 
 
-**漫画：深入 Linux 内核**
+
+* **Linux Kernel Map - \[** 一张图看尽 Linux 内核运行原理 **\]\(**https:\/\/linuxstory.org\/linux-kernel-map\/**\)**
+
+
+!\[\]\(http:\/\/makelinux.net\/kernel\_map\/LKM3\_1024.png\)
+
+* **漫画：深入 Linux 内核**
+
 
 ![](/assets/7cc829d3gw1f92ipqgjjxj21kw1lbdxf.jpg)
 
-**TCP\/IP 协议栈**
+* **TCP\/IP 协议栈**
+
 
 ![](/assets/1.pic_hd.jpg)
 
