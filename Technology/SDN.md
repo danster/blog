@@ -13,7 +13,7 @@
 * SDN是一个框架、一种概念，结合NFV\(网络功能虚拟化\),实现了所有网络架构的大一统,是互联网的颠覆性架构
 * SDN的核心思想: 把网络上所有的信息都集中到一个核心控制器\(Controller\)上处理，控制器可以针对信息编程，直接处理整体网络的逻辑
 * OpenFlow是一种协议,一个标准,也即SDN的具体实践.做法很简单,将所有的报文抽出关键字段,抽象为流\(flow\),而所有流都交给Controller控制
-* OpenFlow技术细节: 
+* OpenFlow技术细节: [OpenFlow 1.3核心概念翻译与理解](http://www.anwcl.com/wordpress/openflow1-3%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5%E7%BF%BB%E8%AF%91%E4%B8%8E%E7%90%86%E8%A7%A3/)
 
 * SDN\/OpenFlow相关的开源软件: [http:\/\/www.oschina.net\/project\/tag\/452\/sdn](http://www.oschina.net/project/tag/452/sdn)
 
