@@ -135,30 +135,23 @@ Reference implementations and other agents
 3. Configure FWaaS in the `/etc/neutron/fwaas_driver.ini` file:
 
  ```
-
  [fwaas]
-
  driver = neutron.services.firewall.drivers.linux.iptables_fwaas.IptablesFwaasDriver
-
  enabled = True
 
-
-
  [service_providers]
-
  service_provider=LOADBALANCER:Haproxy:neutron.services.loadbalancer.drivers.haproxy.plugin_driver.HaproxyOnHostPluginDriver:default
-
  ```
 
 4. FWaaS management options are available in OpenStack dashboard. Enable this option in the local_settings.py file,
- usually located on the Controller node:
+ usually located on the Controller node:  
+
  ```
  /usr/share/openstack-dashboard/openstack_dashboard/local/local_settings.py
  'enable_firewall' = True
  ```
 
 5. Restart neutron-server
-
 
 # Open Source List
 
