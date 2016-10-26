@@ -1,14 +1,14 @@
 # Linux Kernel 基础知识
 
-**[CSDN Page Set：Linux 内核剖析](http://blog.csdn.net/gatieme/article/category/6190201)**
+[**CSDN Page Set：Linux 内核剖析**](http://blog.csdn.net/gatieme/article/category/6190201)
 
-* [**Linux系统启动过程详解---linux内核剖析（零）**](http://blog.csdn.net/gatieme/article/details/50914250)
+* **[Linux系统启动过程详解---linux内核剖析（零）](http://blog.csdn.net/gatieme/article/details/50914250)**
 
 * [Linux的历史----Linux内核剖析（一）](http://blog.csdn.net/gatieme/article/details/44956431)
 
 * [Linux内核绪论----Linux内核剖析（二）](http://blog.csdn.net/gatieme/article/details/44958879)
 
-* [**构建源码树----Linux内核剖析（三）**](http://blog.csdn.net/gatieme/article/details/44961475)
+* **[构建源码树----Linux内核剖析（三）](http://blog.csdn.net/gatieme/article/details/44961475)**
 
 * [为arm内核构建源码树----Linux内核剖析（四）](http://blog.csdn.net/gatieme/article/details/48846997)
 
@@ -59,7 +59,7 @@ CSDN Blog 专栏：[TCP\/IP 详解（协议篇）](http://blog.csdn.net/column/d
 
 ### Linux Kernel - 进程管理
 
-**[CSDN Page Set：Linux进程的管理与调度](http://blog.csdn.net/gatieme/article/category/6225543)**
+[**CSDN Page Set：Linux进程的管理与调度**](http://blog.csdn.net/gatieme/article/category/6225543)
 
 * [Linux进程描述符task\_struct结构体详解--Linux进程的管理与调度（一）](http://blog.csdn.net/gatieme/article/details/51383272)
 
@@ -118,9 +118,10 @@ CSDN Blog 专栏：[TCP\/IP 详解（协议篇）](http://blog.csdn.net/column/d
 
 ### Reference
 
-* **Linux Kernel Map**  [一张图看尽 Linux 内核运行原理](https://linuxstory.org/linux-kernel-map/)
+* **Linux Kernel Map**  [一张图看尽 Linux 内核运行原理： ](https://linuxstory.org/linux-kernel-map/) [Linux内核交互图](http://makelinux.net/kernel_map/) 
 
 ![](http://makelinux.net/kernel_map/LKM3_1024.png)
+
 
 * **漫画：深入 Linux 内核**
 
