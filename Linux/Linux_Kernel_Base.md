@@ -1,14 +1,14 @@
 # Linux Kernel 基础知识
 
-[**CSDN Page Set：Linux 内核剖析**](http://blog.csdn.net/gatieme/article/category/6190201)
+**[CSDN Page Set：Linux 内核剖析](http://blog.csdn.net/gatieme/article/category/6190201)**
 
-* [Linux系统启动过程详解---linux内核剖析（零）](http://blog.csdn.net/gatieme/article/details/50914250)
+* [**Linux系统启动过程详解---linux内核剖析（零）**](http://blog.csdn.net/gatieme/article/details/50914250)
 
 * [Linux的历史----Linux内核剖析（一）](http://blog.csdn.net/gatieme/article/details/44956431)
 
 * [Linux内核绪论----Linux内核剖析（二）](http://blog.csdn.net/gatieme/article/details/44958879)
 
-* **[构建源码树----Linux内核剖析（三）](http://blog.csdn.net/gatieme/article/details/44961475)**
+* [**构建源码树----Linux内核剖析（三）**](http://blog.csdn.net/gatieme/article/details/44961475)
 
 * [为arm内核构建源码树----Linux内核剖析（四）](http://blog.csdn.net/gatieme/article/details/48846997)
 
@@ -59,9 +59,57 @@ CSDN Blog 专栏：[TCP\/IP 详解（协议篇）](http://blog.csdn.net/column/d
 
 ### Linux Kernel - 进程管理
 
-[**CSDN Page Set：Linux进程的管理与调度**](http://blog.csdn.net/gatieme/article/category/6225543)
+**[CSDN Page Set：Linux进程的管理与调度](http://blog.csdn.net/gatieme/article/category/6225543)**
 
-1. [Linux进程描述符task\_struct结构体详解](http://blog.csdn.net/gatieme/article/details/51383272)
+* [Linux进程描述符task\_struct结构体详解--Linux进程的管理与调度（一）](http://blog.csdn.net/gatieme/article/details/51383272)
+
+[Linux的命名空间详解--Linux进程的管理与调度（二）](http://blog.csdn.net/gatieme/article/details/51383322) 
+
+[Linux进程ID号--Linux进程的管理与调度（三）](http://blog.csdn.net/gatieme/article/details/51383377)
+
+[Linux进程管理与调度-之-目录导航](http://blog.csdn.net/gatieme/article/details/51456569) 
+
+[Linux下的进程类别（内核线程、轻量级进程和用户进程）以及其创建方式--Linux进程的管理与调度（四）](http://blog.csdn.net/gatieme/article/details/51482122) 
+
+[Linux下0号进程的前世\(init\_task进程\)今生\(idle进程\)----Linux进程的管理与调度（五）](http://blog.csdn.net/gatieme/article/details/51484562)
+
+[Linux下1号进程的前世\(kernel\_init\)今生\(init进程\)----Linux进程的管理与调度（六）](http://blog.csdn.net/gatieme/article/details/51532804)
+
+[Linux下2号进程的kthreadd--Linux进程的管理与调度（七）](http://blog.csdn.net/gatieme/article/details/51566690)
+
+[Linux下进程的创建过程分析\(\_do\_fork\/do\_fork详解\)--Linux进程的管理与调度（八）](http://blog.csdn.net/gatieme/article/details/51569932)
+
+[Linux进程内核栈与thread\_info结构详解--Linux进程的管理与调度（九）](http://blog.csdn.net/gatieme/article/details/51577479)
+
+[Linux内核线程kernel thread详解--Linux进程的管理与调度（十）](http://blog.csdn.net/gatieme/article/details/51589205)
+
+[Linux进程启动过程分析do\_execve\(可执行程序的加载和运行\)---Linux进程的管理与调度（十一）](http://blog.csdn.net/gatieme/article/details/51594439)  
+
+[LinuxELF文件格式详解--Linux进程的管理与调度（十二）](http://blog.csdn.net/gatieme/article/details/51615799) 
+
+[ELF文件的加载过程\(load\_elf\_binary函数详解\)--Linux进程的管理与调度（十三）](http://blog.csdn.net/gatieme/article/details/51628257) 
+
+[Linux进程退出详解\(do\_exit\)--Linux进程的管理与调度\(十四\)）](http://blog.csdn.net/gatieme/article/details/51638706) 
+
+[Linux进程调度器概述--Linux进程的管理与调度\(十五）](http://blog.csdn.net/gatieme/article/details/51699889) 
+
+[Linux进程调度策略的发展和演变--Linux进程的管理与调度\(十六）](http://blog.csdn.net/gatieme/article/details/51701149) 
+
+[Linux进程调度器的设计--Linux进程的管理与调度\(十七）](http://blog.csdn.net/gatieme/article/details/51702662) 
+
+[Linux核心调度器之周期性调度器scheduler\_tick--Linux进程的管理与调度\(十八）](http://blog.csdn.net/gatieme/article/details/51872561) 
+
+[Linux进程核心调度器之主调度器schedule--Linux进程的管理与调度\(十九）](http://blog.csdn.net/gatieme/article/details/51872594) 
+
+[Linux用户抢占和内核抢占详解\(概念, 实现和触发时机\)--Linux进程的管理与调度\(二十）](http://blog.csdn.net/gatieme/article/details/51872618)
+
+[Linux进程上下文切换过程context\_switch详解--Linux进程的管理与调度\(二十一）](http://blog.csdn.net/gatieme/article/details/51872659) 
+
+[Linux进程优先级的处理--Linux进程的管理与调度\(二十二\)](http://blog.csdn.net/gatieme/article/details/51719208) 
+
+[Linux唤醒抢占----Linux进程的管理与调度\(二十三）](http://blog.csdn.net/gatieme/article/details/51872831) 
+
+[Linux进程调度之CFS调度器概述--Linux进程的管理与调度\(二十四）](http://blog.csdn.net/gatieme/article/details/52067518) 
 
 ### Linux Kernel - 文件系统
 
