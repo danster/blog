@@ -6,3 +6,11 @@ OVS bridge 有两种模式：“normal” 和 “flow”, br-int: normal , br-tu
 
 ## Computer Node OVS
 
+
+
+
+
+图：br-tun 流表
+
+![](/assets/OVS_br_tun.jpg)
+
