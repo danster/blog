@@ -7,7 +7,7 @@
 
 ### SDN 网络结构：应用层，控制层，转发层
 
-![](/asserts/SDN.png)
+![](/assets/SDN.png)
 
 > Note: 区别于TCP\/IP的4层网络结构
 
