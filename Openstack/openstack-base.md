@@ -27,4 +27,7 @@
 - [OpenStack Documents](http://docs.openstack.org/)
 - [OpenStack Operations Guide](http://docs.openstack.org/ops-guide/)
 
+
+
+图 1： Openstack 模块关系图
 ![](http://img.blog.csdn.net/20140304232125453)
