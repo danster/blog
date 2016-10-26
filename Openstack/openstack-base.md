@@ -42,36 +42,18 @@
 - **Tenant networks/Provider networks**: Flat, VLAN, GRE, VXLAN
 - **Network**: An isolated L2 segment, analogous to VLAN in the physical networking world.
 - **Subnet**: A block of v4 or v6 IP addresses and associated configuration state.
-- **Port**: A connection point for attaching a single device, such as the NIC of a virtual server, to a virtual network.  
-
- Also describes the associated network configuration, such as the MAC and IP addresses to be used on that port.
+- **Port**: A connection point for attaching a single device, such as the NIC of a virtual server, to a virtual network.  Also describes the associated network configuration, such as the MAC and IP addresses to be used on that port.
 - Subnet Pools, Routers, Security groups(port level), Extensions
-- **virtual network**: A Networking L2 network (identified by a UUID and optional name) whose ports can be attached as vNICs
-
- to Compute instances and to various Networking agents. The Open vSwitch and Linux Bridge plug-ins each support several different mechanisms to realize virtual networks.
-
-- **tenant network**: A virtual network that a tenant or an administrator creates.
-
- The physical details of the network are not exposed to the tenant.
-
-- **provider network**： A virtual network administratively created to map to a specific network in the data center,
-
- typically to enable direct access to non-OpenStack resources on that network. Tenants can be given access to provider networks.
-
+- **virtual network**: A Networking L2 network (identified by a UUID and optional name) whose ports can be attached as vNICs to Compute instances and to various Networking agents. The Open vSwitch and Linux Bridge plug-ins each support several different mechanisms to realize virtual networks.
+- **tenant network**: A virtual network that a tenant or an administrator creates. The physical details of the network are not exposed to the tenant.
+- **provider network**： A virtual network administratively created to map to a specific network in the data center, typically to enable direct access to non-OpenStack resources on that network. Tenants can be given access to provider networks.
 - [**Terminology**](http://docs.openstack.org/admin-guide/networking_adv-features.html#terminology): virtual, physical, tenent, provider, local, flat, vlan, gre, vxlan network
-
-- The ML2, Open vSwitch, and Linux Bridge plug-ins support VLAN networks, flat networks, and local networks.
-
- Only the ML2 and Open vSwitch plug-ins currently support GRE and VXLAN networks
-
+- The ML2, Open vSwitch, and Linux Bridge plug-ins support VLAN networks, flat networks, and local networks.Only the ML2 and Open vSwitch plug-ins currently support GRE and VXLAN networks
 - [OpenStack Neutron网络状态详解](http://www.openstack.cn/?p=1321 ): 介绍admin_state_up和status两个属性在Network, Port和Router上的含义
 
 ## ML2 plug-in and Agents
-
 ---
-
 - **ML2 plug-in** is a framework allowing OpenStack Networking to simultaneously use the variety of layer 2 networking technologies
-
  found in complex real-world data centers. The ML2 framework distinguishes between the two kinds of drivers:
 
  - Type drivers: Flat(not for project network), VLAN, GRE, VXLAN
@@ -121,7 +103,6 @@ Reference implementations and other agents
 ## Enable FWaaS
 
 - [Neutron防火墙(FWaas)](http://fishcried.com/2016-02-05/neutron-fwaas-notes/)
-
 - [RHEL 7: CONFIGURE FIREWALL-AS-A-SERVICE (FWAAS)](https://access.redhat.com/documentation/en/red-hat-enterprise-linux-openstack-platform/7/networking-guide/chapter-16-configure-firewall-as-a-service-fwaas)
 
 1. Install the FWaaS packages:
