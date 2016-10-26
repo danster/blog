@@ -23,9 +23,7 @@
 - Linux Bridge, OVS, Flow Table
 - **Network components**: swicth, router, firewall, load balancer
 - **Tunnel technologies**: GRE, VXLAN
-- **Linux network namespaces**: Linux provides namespaces for networking and processes, among other things.  
-
-   Each network namespace also has its own set of iptables (for both IPv4 and IPv6)
+- **Linux network namespaces**: Linux provides namespaces for networking and processes, among other things. Each network namespace also has its own set of iptables (for both IPv4 and IPv6)
 - **ip netns exec NETNS COMMAND...**: starts COMMAND running in the namespace named NETNS
 - vm_1.3 ping vm_2.3:
  - vm_1.3 find mac addr of 1.1 from its arp cache.
