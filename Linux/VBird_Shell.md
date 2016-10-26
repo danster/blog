@@ -222,7 +222,7 @@ logout shell: (~/.bash_logout)
 这个文件记录了『当我注销 bash 后，系统再帮我做完什么动作后才离开』
 ```
 
-![](/images/login_shell_flow.png)
+![](/assets/login_shell_flow.png)
 
 图 login shell 的配置文件读取流程
 
