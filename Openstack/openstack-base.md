@@ -151,19 +151,13 @@ Reference implementations and other agents
  ```
 
 4. FWaaS management options are available in OpenStack dashboard. Enable this option in the local_settings.py file,
-
  usually located on the Controller node:
-
  ```
-
  /usr/share/openstack-dashboard/openstack_dashboard/local/local_settings.py
-
  'enable_firewall' = True
-
  ```
 
 5. Restart neutron-server
-
 
 
 # Open Source List
@@ -177,12 +171,6 @@ Reference implementations and other agents
 - **[OpenStack](http://docs.openstack.org/)**: Dashboard, KeyStone, Neutron, Nova, Swift, Glance
 - **[FastData](http://fd.io)**
 - Database: mysql, redis, mongodb, memcache
-
-
-
-
-
-
 
 
 图 1： Openstack 模块关系图  
