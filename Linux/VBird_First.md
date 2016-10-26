@@ -40,7 +40,7 @@ Linux的文件系统通常会将文件数据分别存放在不同的区块，**�
 
 由于文件写入的 block 太过于离散了，文件读取很差，这个时候可以透过碎片整理将同一个文件所属的 blocks 汇整在一起，这样数据的读取会比较容易。FAT 需要经常的碎片整理一下，Ext2 基本上不太需要。
 
-![](/images/ext2_filesystem.jpg)  
+![](/assets/ext2_filesystem.jpg)  
 
 因为 inode 与 block 的数量太庞大, 不容易管理, 因此 Ext2 文件系统在格式化的时候基本上是区分为多个区块群组 (block group) 的，每个区块群组都有独立的 inode/block/superblock 系统
 
