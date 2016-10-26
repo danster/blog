@@ -29,5 +29,5 @@
 
 
 
-图 1： Openstack 模块关系图
+图 1： Openstack 模块关系图  
 ![](http://img.blog.csdn.net/20140304232125453)
