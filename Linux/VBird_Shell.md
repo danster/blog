@@ -5,7 +5,7 @@
 ## 第十一章 认识与学习 BASH
 ### 认识 BASH 这个 Shell
 硬件、核心与用户的相关性图示  
-![](/images/bash_kernel.jpg)
+![](/assets/bash_kernel.jpg)
 
 Linux有多少可以使用的 shells, 可以检查一下 /etc/shells 这个文件.    
 为什么我们系统上合法的 shell 要写入 /etc/shells 这个文件啊？这是因为系统某些服务在运行过程中，会去检查使用者能够使用的 shells ，而这些 shell 的查询就是藉由 /etc/shells这个文件啰！
