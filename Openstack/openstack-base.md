@@ -169,7 +169,6 @@ Reference implementations and other agents
 # Open Source List
 
 - Docker, **[Kubernate](https://github.com/kubernetes/kubernetes)**, Flynn
-
 - Distributed Storage: **Hadoop**, Spark, HBase
 - Distributed File System: **[Ceph](http://docs.ceph.org.cn/)**, XFS, **HDFS**, CIFS
 - Distributed Contral: CoreOS, **[etcd](https://github.com/coreos/etcd)**, zookeeper
@@ -178,8 +177,6 @@ Reference implementations and other agents
 - **[OpenStack](http://docs.openstack.org/)**: Dashboard, KeyStone, Neutron, Nova, Swift, Glance
 - **[FastData](http://fd.io)**
 - Database: mysql, redis, mongodb, memcache
-
-
 
 
 
