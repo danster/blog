@@ -1,5 +1,5 @@
 # SDN and NFV
-<!-- toc -->
+
 
 * SDN: Software Defined Network
 * NFV: Network Function Virtualization 
