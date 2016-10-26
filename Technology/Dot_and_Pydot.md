@@ -110,7 +110,7 @@ digraph gname {
 >  $ dot -Tpng -o test.png test.dot -v   
 
 可以得到下面的图样: 
-![](/images/dot_1.png)
+![](/assets/dot_1.png)
 
 下面就几个关键的属性进行一下说明, E, N, G, S, C 分别代表属性是作用在  edges, nodes, the root graph, subgraphs, cluster subgraphs 上的.
 
@@ -261,7 +261,7 @@ digraph AWS {
 ```
 
 绘制出的图样:   
-![](/images/dot_pydot.png)
+![](/assets/dot_pydot.png)
 
 ### reference
 这里有一些运用Dot或pydot画图的文章参考：  
