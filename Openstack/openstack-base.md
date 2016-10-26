@@ -53,51 +53,32 @@
 
 ## ML2 plug-in and Agents
 ---
-- **ML2 plug-in** is a framework allowing OpenStack Networking to simultaneously use the variety of layer 2 networking technologies
- found in complex real-world data centers. The ML2 framework distinguishes between the two kinds of drivers:
-
+- **ML2 plug-in** is a framework allowing OpenStack Networking to simultaneously use the variety of layer 2 networking technologies found in complex real-world data centers. The ML2 framework distinguishes between the two kinds of drivers:
  - Type drivers: Flat(not for project network), VLAN, GRE, VXLAN
-
  - Mechanism drivers: OVS, Linux Bridge, SRIOV, MacVTap, L2 population
-
 - An **L2 agent** serves layer 2 (Ethernet) network connectivity to OpenStack resources. It typically runs on each Network Node and on each Compute Node.
-
 - The **L3 agent** offers advanced layer 3 services, like virtual Routers and Floating IPs. It requires an L2 agent running in parallel.
-
 - The **DHCP agent** is responsible for DHCP and RADVD (Router Advertisement Daemon) services. It requires a running L2 agent on the same node.
-
 - The **Metadata agent** allows instances to access cloud-init meta data and user data via the network. It requires a running L2 agent on the same node.
-
 - The **L3 metering agent** enables layer3 traffic metering. It requires a running L3 agent on the same node.
-
 - L2 agents support some important **security** configurations: Security Groups, Arp Spoofing Prevention
 
 ## Reference Implementation
-
 ---
-
 The combination of a mechanism driver and an L2 agent is called ‘reference implementation’.
 
 |Reference Implementation|Mechanism Driver|L2 agent|
-
 |------------------|----------------|--------|
-
 |Open vSwitch & Open vSwitch agent|Open vSwitch |Open vSwitch agent|
-
 |Linux bridge & Linux bridge agent|Linux bridge |Linux bridge agent|
 
 Reference implementations and other agents
 
 |Reference Implementation|L3 agent| DHCP agent| Metadata agent| L3 Metering agent|
-
 |------------------------|----------------|--------|---|---|
-
 |Open vSwitch & Open vSwitch agent|yes |yes|yes |yes|
-
 |Linux bridge & Linux bridge agent|yes |yes|yes |yes|
-
 |SRIOV & SRIOV nic switch agent|no |no |no |no|
-
 |MacVTap & MacVTap agent|no |no |no |no|
 
 ## Enable FWaaS
