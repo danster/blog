@@ -83,9 +83,7 @@ Reference implementations and other agents
 - [Neutron防火墙(FWaas)](http://fishcried.com/2016-02-05/neutron-fwaas-notes/)
 - [RHEL 7: CONFIGURE FIREWALL-AS-A-SERVICE (FWAAS)](https://access.redhat.com/documentation/en/red-hat-enterprise-linux-openstack-platform/7/networking-guide/chapter-16-configure-firewall-as-a-service-fwaas)
 
-1. Install the FWaaS packages:
-
- # yum install openstack-neutron-fwaas python-neutron-fwaas
+1. Install the FWaaS packages: `yum install openstack-neutron-fwaas python-neutron-fwaas`
 
 2. Enable the FWaaS plugin in the `/etc/neutron/neutron.conf` file:
 
@@ -102,8 +100,7 @@ Reference implementations and other agents
  service_provider=LOADBALANCER:Haproxy:neutron.services.loadbalancer.drivers.haproxy.plugin_driver.HaproxyOnHostPluginDriver:default
  ```
 
-4. FWaaS management options are available in OpenStack dashboard. Enable this option in the local_settings.py file,
- usually located on the Controller node:  
+4. FWaaS management options are available in OpenStack dashboard. Enable this option in the local_settings.py file,usually located on the Controller node:  
 
  ```
  /usr/share/openstack-dashboard/openstack_dashboard/local/local_settings.py
@@ -123,7 +120,6 @@ Reference implementations and other agents
 - **[OpenStack](http://docs.openstack.org/)**: Dashboard, KeyStone, Neutron, Nova, Swift, Glance
 - **[FastData](http://fd.io)**
 - Database: mysql, redis, mongodb, memcache
-
 
 图 1： Openstack 模块关系图  
 ![](http://img.blog.csdn.net/20140304232125453)
