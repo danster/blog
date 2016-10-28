@@ -84,11 +84,7 @@ Reference implementations and other agents
 - [RHEL 7: CONFIGURE FIREWALL-AS-A-SERVICE (FWAAS)](https://access.redhat.com/documentation/en/red-hat-enterprise-linux-openstack-platform/7/networking-guide/chapter-16-configure-firewall-as-a-service-fwaas)
 
 1. Install the FWaaS packages: `yum install openstack-neutron-fwaas python-neutron-fwaas`
-
-2. Enable the FWaaS plugin in the `/etc/neutron/neutron.conf` file:
-
- service_plugins = neutron.services.firewall.fwaas_plugin.FirewallPlugin
-
+2. Enable the FWaaS plugin in the "/etc/neutron/neutron.conf" file:`service_plugins = neutron.services.firewall.fwaas_plugin.FirewallPlugin`
 3. Configure FWaaS in the `/etc/neutron/fwaas_driver.ini` file:
 
  ```
