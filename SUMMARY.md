@@ -9,7 +9,6 @@
    * [Linux Basic Tools](Linux/Linux_Base_Tools.md)
    * [Linux Senior Tools](Linux/Linux_Senior_Tools.md)
    * [Linux Service Configuration](Linux/Service_Config.md)
-   * [Linux 目录与文件](Linux/Linux_FHS.md)
    * [Tips of Ubuntn](Linux/Tips_of_Ubuntu.md)
 * [Programming Language](Chapter_Langauge.md)
    * [C Knowledge List](Language/C_Knowledge_List.md)
