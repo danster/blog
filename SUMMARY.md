@@ -21,7 +21,6 @@
    * [Python Multiple Processing&Threading](Language/Python_Multi_Thread.md)
    * [Java Knowledge List](Language/Java_Knowledge_List.md)
 * [OpenStack](Chapter_Openstack.md)
-   * [SDN and NFV](Openstack/SDN.md)
    * [Swift](Openstack/Swift.md)
 * [Misc](Chapter_Misc.md)
    * [CAP Theory](Technology/CAP_Theory.md)
