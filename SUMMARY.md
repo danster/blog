@@ -20,7 +20,6 @@
    * [Python Web Development](Language/Python_Web_Development.md)
    * [Python Multiple Processing&Threading](Language/Python_Multi_Thread.md)
    * [Java Knowledge List](Language/Java_Knowledge_List.md)
-* [OpenStack](Chapter_Openstack.md)
 * [Misc](Chapter_Misc.md)
    * [CAP Theory](Technology/CAP_Theory.md)
    * [一致性哈希](Technology/Consistent_Hash.md)
