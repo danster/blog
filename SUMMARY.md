@@ -22,7 +22,6 @@
    * [Java Knowledge List](Language/Java_Knowledge_List.md)
 * [OpenStack](Chapter_Openstack.md)
    * [SDN and NFV](Openstack/SDN.md)
-   * [OVS 流表](Openstack/OVS_Openflow.md)
    * [Swift](Openstack/Swift.md)
 * [Misc](Chapter_Misc.md)
    * [CAP Theory](Technology/CAP_Theory.md)
