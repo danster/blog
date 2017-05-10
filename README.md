@@ -5,7 +5,7 @@ Welcome to my technology blog.
 
 ## Coding
 - [Git 用法大全](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga11J6D20NFQvF2PipBr3HDq80)
-- 
+- [Python 基础知识点汇总](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1upSat27fQHf2OfWJr09OiqQ)
 
 ## Linux
 - [Linux 网络与内核](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0c8dqQ1xGkW62uwa0r19jyJ9)
@@ -15,3 +15,7 @@ Welcome to my technology blog.
 - [Linux私房菜下-软件安装、Linux备份、核心编译](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2TZm-m04QAYL2Db2bT3z7EBq)
 
 ## Cloud Computing
+- [I/O 虚机化技术](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2y_HJN2d24My2nTMFQ1Q-wSh)
+- [Openstack Neutron 网络知识](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1O6ZWR3BDkhn26pZAE3jseCY)
+- [Openstack Neutron LB](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1GfZC205SQ4B2W8DGd27vWCq)
+- [Openstack RPC 技术解析](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2yRyzQ3J2Qp82657732aJ1b5)
