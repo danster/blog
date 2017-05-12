@@ -1,5 +1,3 @@
-Welcome to my technology blog. <br/><br/>
-
 ## Coding
 - [Git 知识点汇总](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga11J6D20NFQvF2PipBr3HDq80)
 - [Python 知识点汇总](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1upSat27fQHf2OfWJr09OiqQ)
@@ -17,6 +15,8 @@ Welcome to my technology blog. <br/><br/>
 - [Openstack Neutron LB](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1GfZC205SQ4B2W8DGd27vWCq)
 - [Openstack RPC 技术解析](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2yRyzQ3J2Qp82657732aJ1b5)
 
-<br/><br/><br/>
+<br/>
+
 ----------------
+
 - [My Linkedin](https://www.linkedin.com/in/maofeng-huang-79b91411b/)
