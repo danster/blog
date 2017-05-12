@@ -1,5 +1,4 @@
-Welcome to my technology blog. <br/><br/><br/>
-
+Welcome to my technology blog. <br/><br/>
 
 ## Coding
 - [Git 知识点汇总](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga11J6D20NFQvF2PipBr3HDq80)
