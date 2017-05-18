@@ -1,6 +1,9 @@
 ## Coding
-- [Git 知识点汇总](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga11J6D20NFQvF2PipBr3HDq80)
-- [Python 知识点汇总](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1upSat27fQHf2OfWJr09OiqQ)
+- [Git 基础知识点](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga11J6D20NFQvF2PipBr3HDq80)
+- [Python 基础知识点](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1upSat27fQHf2OfWJr09OiqQ)
+- [C/C++ 基础知识点](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0NFhK_0aBA9O21l9b91uEiFh)
+- [C++ STL](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3D-SC53ztQ7Z2w3ur_1cNGjC)
+
 
 ## Linux
 - [Linux 网络与内核](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0c8dqQ1xGkW62uwa0r19jyJ9)
@@ -9,8 +12,10 @@
 - [Linux 私房菜-Bash&Shell](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2CMXxB08bk_O2vO2lL3vWAEw)
 - [Linux 私房菜-Daemon、登录档、启动流程与模块管理](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2Hfyum21WQx42fsSN52ZfkJ9)
 - [Linux 私房菜-软件安装、Linux备份、核心编译](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2TZm-m04QAYL2Db2bT3z7EBq)
+- [Openssl Research](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0S49GD3nb4kU2oht9C0jvAlB)
 
 ## Cloud Computing
+- [虚拟化技术简介](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0NyzxW2jxkyq2Ycv4J0mhH0s)
 - [I/O 虚机化技术](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2y_HJN2d24My2nTMFQ1Q-wSh)
 - [Openstack 基础网络知识](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1O6ZWR3BDkhn26pZAE3jseCY)
 - [Openstack 网络虚拟化技术](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga17I_lN3tp4aa245CXP1DZjU2)
