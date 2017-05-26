@@ -22,6 +22,7 @@
 - [Openstack Load Balancer](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1GfZC205SQ4B2W8DGd27vWCq)
 - [Openstack RPC 技术解析](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2yRyzQ3J2Qp82657732aJ1b5)
 - [Neutron 架构解析](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1laFOY3w_QNv2GoITD3JYwtP)
+- [Neutron 的网络Qos](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1R302D2eDAx72kUZ_P0sXLoo)
 - [云环境下的网络监控](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1unVWR0xnA142Btsy233k1tu)
 
 
