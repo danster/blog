@@ -14,7 +14,6 @@
 - [Linux 私房菜-Bash&Shell](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2CMXxB08bk_O2vO2lL3vWAEw)
 - [Linux 私房菜-Daemon、登录档、启动流程与模块管理](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2Hfyum21WQx42fsSN52ZfkJ9)
 - [Linux 私房菜-软件安装、Linux备份、核心编译](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2TZm-m04QAYL2Db2bT3z7EBq)
-- [Openssl Research](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0S49GD3nb4kU2oht9C0jvAlB)
 
 ## Cloud Computing
 - [虚拟化技术简介](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0NyzxW2jxkyq2Ycv4J0mhH0s)
@@ -27,6 +26,11 @@
 - [Neutron 的网络Qos](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1R302D2eDAx72kUZ_P0sXLoo)
 - [云环境下的网络监控](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1unVWR0xnA142Btsy233k1tu)
 - [Docker Research](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1W0F_Y0Wtk2H24q1-B3HUkEu)
+
+## Uncategorized
+- [Openssl Research](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0S49GD3nb4kU2oht9C0jvAlB)
+- [CAP 与 一致性哈希](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3UPMoE2sXQpM24ABIo00xiBN)
+- [From SHA to SSH](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1AYRRN3qPACW20IGe_0QnifZ)
 
 
 <br/><br/>
