@@ -30,7 +30,7 @@
 ## Uncategorized
 - [From SHA to SSH](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1AYRRN3qPACW20IGe_0QnifZ)
 - [Openssl Research](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0S49GD3nb4kU2oht9C0jvAlB)
-- [CAP 与 一致性哈希](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3UPMoE2sXQpM24ABIo00xiBN)
+- [CAP 与一致性哈希](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3UPMoE2sXQpM24ABIo00xiBN)
 
 
 <br/><br/>
