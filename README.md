@@ -16,6 +16,7 @@
 - [Linux 文件系统概述](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3ipZnF1upQtz212yrl1w5bSN)
 - [Linux Basic Tools](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1l3zrL3o44KY2HicVp2syn0w)
 - [Linux Senior Tools](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga00lJgg3y4klZ241mrn24tCYc)
+- [Linux Systemd与Rsyslog](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3eWIsQ3k8kfJ2BDsON28igNz)
 
 ## Cloud Computing
 - [虚拟化技术简介](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0NyzxW2jxkyq2Ycv4J0mhH0s)
@@ -27,8 +28,10 @@
 - [Openstack RPC 技术解析](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2yRyzQ3J2Qp82657732aJ1b5)
 - [Neutron 架构解析](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1laFOY3w_QNv2GoITD3JYwtP)
 - [Neutron 的网络Qos](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1R302D2eDAx72kUZ_P0sXLoo)
-- [云环境下的网络监控](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1unVWR0xnA142Btsy233k1tu)
+- [云计算与网络监控](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1unVWR0xnA142Btsy233k1tu)
+- [云计算与网络监控](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1PJ2rM3QjkJO2OhWJ719cbRr)
 - [利用 sFlow 监控 OpenvSwitch Bridge](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3Z-BNh2o24kB2ujhs30H1iKK)
+
 
 ## Uncategorized
 - [From SHA to SSH](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1AYRRN3qPACW20IGe_0QnifZ)
