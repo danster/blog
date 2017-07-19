@@ -31,7 +31,9 @@
 - [云计算与网络监控](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1unVWR0xnA142Btsy233k1tu)
 - [云计算与网络安全](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1PJ2rM3QjkJO2OhWJ719cbRr)
 - [漫谈 OpenStack SDN](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0zPPpV1FJ4Fn2faF1a2Hz8ta)
-- [利用 sFlow 监控 OpenvSwitch Bridge](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3Z-BNh2o24kB2ujhs30H1iKK)
+
+- [sFlow 流量监控](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3Z-BNh2o24kB2ujhs30H1iKK)
+- [sFlow 工作原理](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2P0iPK3MDQ022hGjhW2neoT1)
 
 
 ## Uncategorized
