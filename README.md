@@ -18,19 +18,28 @@
 - [Linux Senior Tools](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga00lJgg3y4klZ241mrn24tCYc)
 - [Linux Systemd与Rsyslog](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3eWIsQ3k8kfJ2BDsON28igNz)
 
-## Cloud Computing
+
+## Openstack
+- [Openstack 学习资料汇总](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2SN0zt1rs4N72yOonv0KtVgu)
+- [Openstack 网络基础知识](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1O6ZWR3BDkhn26pZAE3jseCY)
+- [Openstack 网络虚拟化技术](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga17I_lN3tp4aa245CXP1DZjU2)
+- [OpenStack 与 SDN](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0zPPpV1FJ4Fn2faF1a2Hz8ta)
+- [Openstack Load Balancer](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1GfZC205SQ4B2W8DGd27vWCq)
+- [Openstack RPC 技术解析](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2yRyzQ3J2Qp82657732aJ1b5)
+- [Openstack DB](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga16QI1u0TSQb22GzpoI2JM2gZ)
+- [Neutron 架构解析](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1laFOY3w_QNv2GoITD3JYwtP)
+- [Neutron Qos 实现](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1R302D2eDAx72kUZ_P0sXLoo)
+- [Neutron Service Plugin](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2b2ymb1jpkod2hhAU62ZuQmu)
+- [Neutron Server 启动流程](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2w02WB1DqQNy25XtVt14UDWP)
+- [oslo_service 库](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1EB4rm2F9kza2bWCG-3Dygqj)
+
+
+## Compute & Network
 - [虚拟化技术简介](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0NyzxW2jxkyq2Ycv4J0mhH0s)
 - [I/O 虚机化技术](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2y_HJN2d24My2nTMFQ1Q-wSh)
 - [Docker Research](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1W0F_Y0Wtk2H24q1-B3HUkEu)
-- [Openstack 基础网络知识](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1O6ZWR3BDkhn26pZAE3jseCY)
-- [Openstack 网络虚拟化技术](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga17I_lN3tp4aa245CXP1DZjU2)
-- [Openstack Load Balancer](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1GfZC205SQ4B2W8DGd27vWCq)
-- [Openstack RPC 技术解析](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2yRyzQ3J2Qp82657732aJ1b5)
-- [Neutron 架构解析](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1laFOY3w_QNv2GoITD3JYwtP)
-- [Neutron 的网络Qos](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1R302D2eDAx72kUZ_P0sXLoo)
 - [云计算与网络监控](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1unVWR0xnA142Btsy233k1tu)
 - [云计算与网络安全](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1PJ2rM3QjkJO2OhWJ719cbRr)
-- [漫谈 OpenStack SDN](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0zPPpV1FJ4Fn2faF1a2Hz8ta)
 - [sFlow 流量监控](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3Z-BNh2o24kB2ujhs30H1iKK)
 - [sFlow 工作原理](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2P0iPK3MDQ022hGjhW2neoT1)
 
