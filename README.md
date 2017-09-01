@@ -36,21 +36,24 @@
 - [oslo_service 库](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1EB4rm2F9kza2bWCG-3Dygqj)
 
 
-## Cloud Computing & Networking
+## Network & Compute
 - [虚拟化技术简介](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0NyzxW2jxkyq2Ycv4J0mhH0s)
 - [I/O 虚机化技术](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2y_HJN2d24My2nTMFQ1Q-wSh)
+- [KVM 与 LVM](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2KKIzB2KyACw2fnOP21zHQvo)
 - [Docker Research](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1W0F_Y0Wtk2H24q1-B3HUkEu)
 - [云计算与网络监控](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1unVWR0xnA142Btsy233k1tu)
 - [云计算与网络安全](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1PJ2rM3QjkJO2OhWJ719cbRr)
 - [sFlow 流量监控](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3Z-BNh2o24kB2ujhs30H1iKK)
-- [sFlow 工作原理](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2P0iPK3MDQ022hGjhW2neoT1)
-
+- [sFlow 采样原理](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2P0iPK3MDQ022hGjhW2neoT1)
+- [Linux 网络协议栈](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0c8dqQ1xGkW62uwa0r19jyJ9)
+- [Open vSwitch: 架构解析](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0eQhW-0GCkC_2OQ4S83YMJeO)
+- [Open vSwitch: 编译部署](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0iKVdq1xAQqp2y3nfr3gnhh5)
+- [VPP 配置、编译、部署](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3mX6kG3QlA722SE7SG3Z3YIZ)
 
 ## Uncategorized
 - [From SHA to SSH](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1AYRRN3qPACW20IGe_0QnifZ)
 - [Openssl Research](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0S49GD3nb4kU2oht9C0jvAlB)
 - [CAP 与一致性哈希](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3UPMoE2sXQpM24ABIo00xiBN)
-
 
 <br/><br/>
 
