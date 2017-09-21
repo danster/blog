@@ -23,8 +23,7 @@
 
 ## Openstack
 - [Openstack 学习资料汇总](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2SN0zt1rs4N72yOonv0KtVgu)
-- [Openstack 网络基础知识](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1O6ZWR3BDkhn26pZAE3jseCY)
-- [Openstack 网络虚拟化技术](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga17I_lN3tp4aa245CXP1DZjU2)
+- [Openstack 网络实现](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga17I_lN3tp4aa245CXP1DZjU2)
 - [OpenStack 与 SDN](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0zPPpV1FJ4Fn2faF1a2Hz8ta)
 - [Openstack Load Balancer](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1GfZC205SQ4B2W8DGd27vWCq)
 - [Openstack RPC 技术解析](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2yRyzQ3J2Qp82657732aJ1b5)
@@ -41,6 +40,8 @@
 - [I/O 虚机化技术](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2y_HJN2d24My2nTMFQ1Q-wSh)
 - [KVM 与 LVM](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2KKIzB2KyACw2fnOP21zHQvo)
 - [Docker Research](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1W0F_Y0Wtk2H24q1-B3HUkEu)
+
+- [Linux 网络基础](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0rnr0A0Yc4R42tG-H_2ykqrn)
 - [Linux 网络协议栈](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0c8dqQ1xGkW62uwa0r19jyJ9)
 - [云计算与网络监控](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1unVWR0xnA142Btsy233k1tu)
 - [云计算与网络安全](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1PJ2rM3QjkJO2OhWJ719cbRr)
@@ -48,7 +49,7 @@
 - [sFlow 采样原理](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2P0iPK3MDQ022hGjhW2neoT1)
 - [Open vSwitch: 架构解析](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0eQhW-0GCkC_2OQ4S83YMJeO)
 - [Open vSwitch: 编译部署](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0iKVdq1xAQqp2y3nfr3gnhh5)
-- [VPP 配置、编译、部署](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3mX6kG3QlA722SE7SG3Z3YIZ)
+- [VPP vRouter: 编译部署](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3mX6kG3QlA722SE7SG3Z3YIZ)
 
 ## Uncategorized
 - [From SHA to SSH](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1AYRRN3qPACW20IGe_0QnifZ)
