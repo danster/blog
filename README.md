@@ -22,8 +22,6 @@
 - [Linux 内核加载过程](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2oQTNn28eAY_2n5Hop0u0BQJ)
 - [Linux 进程间通信 IPC](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0uZ6oM3oVQD22w0rT63vqTGg)
 - [Linux I/O 机制](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga01qk4D1po4Sh2nyC3a13j0Pq)
-- []()
-- []()
 
 
 ## Openstack
