@@ -68,7 +68,7 @@
 - [KVM 与 LVM](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2KKIzB2KyACw2fnOP21zHQvo)
 - [Kubernetes: Docker Research](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1W0F_Y0Wtk2H24q1-B3HUkEu)
 - [Kubernetes: Tutorials](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1dUv-h31rkjw2TNAWo20onau)
-- [Kubernetes: 使用 Kubespray 快速部署 K8S](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2DG-ul3XtQOK2dggsN2oXDz3)
+- [Kubernetes: Kubespray 部署 K8S](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2DG-ul3XtQOK2dggsN2oXDz3)
 - [Kubernetes: Calico 网络原理](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0-KAkJ0UPA_Z2l-o1K1VSw3Q)
 
 ## Uncategorized
