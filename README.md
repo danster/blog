@@ -61,6 +61,7 @@
 - [Neutron Load Balancer](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga279mEj293Q1K2elyTX3xspAR)
 - [Neutron IPv6](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3D4jYa39sQZ-2uZUpf1zFpCU)
 - [虚拟化技术简介](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0NyzxW2jxkyq2Ycv4J0mhH0s)
+- [CPU 虚拟化技术](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga3d2Nqd2BkA0G21EBkz1UAtqr)
 - [I/O 虚机化技术](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2y_HJN2d24My2nTMFQ1Q-wSh)
 - [KVM 与 LVM](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2KKIzB2KyACw2fnOP21zHQvo)
 
