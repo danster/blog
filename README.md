@@ -52,6 +52,7 @@
 - [oslo_service 库](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1EB4rm2F9kza2bWCG-3Dygqj)
 - [Openstack API 机制](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1nAoXp3TIkfz2j6b8M2vePRj)
 - [Openstack RPC 机制](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga2yRyzQ3J2Qp82657732aJ1b5)
+- [Openstack 存储服务](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga05oCJl3lY4oU2YjAzK1cgzVu)
 - [OpenStack 与 SDN](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga0zPPpV1FJ4Fn2faF1a2Hz8ta)
 - [Openstack 虚拟网络](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga17I_lN3tp4aa245CXP1DZjU2)
 - [Neutron 架构解析](http://303babc1.wiz03.com/share/s/0MeWL10l549i2ZM6hW3Y1-ga1laFOY3w_QNv2GoITD3JYwtP)
